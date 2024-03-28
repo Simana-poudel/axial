@@ -75,14 +75,14 @@ export function NavItems() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium mx-2">
+            <NavigationMenuLink className="text-white font-medium m-2">
               HOME
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium mx-2">
+            <NavigationMenuLink className="text-white font-medium m-2">
               ABOUT
             </NavigationMenuLink>
           </Link>

@@ -30,6 +30,18 @@ const grids: {
     location: "Stoltenberg Underpass Blockbury",
     title: "Reconstruction of Old Factory Building",
   },
+  {
+    index: "5",
+    image: "images/projects/project1.webp",
+    location: "100 Sunrise Ct Hamel, Minnesota",
+    title: "Jazzy Elite Construction Shopping",
+  },
+  {
+    index: "6",
+    image: "images/projects/project2.webp",
+    location: "Rocky Highway Port Juana",
+    title: "Fresh Concept Construction Renovation",
+  },
 ];
 
 const Projects = () => {
@@ -42,7 +54,7 @@ const Projects = () => {
           <h1 className="text-5xl text-white font-bold max-w-[600px] py-8">
             Our <span className="text-secondary-1">Projects</span>
           </h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4">
             {grids.map((grid) => (
               <div key={grid.index} className="p-2">
                 <img src={grid.image} alt={grid.title} />
