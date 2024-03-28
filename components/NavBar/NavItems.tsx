@@ -75,21 +75,21 @@ export function NavItems() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium m-2">
+            <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
               HOME
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium m-2">
+            <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
               ABOUT
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent">
+          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
             SERVICES
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -106,7 +106,7 @@ export function NavItems() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent">
+          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
             PROJECTS
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -123,7 +123,7 @@ export function NavItems() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent">
+          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
             BLOG
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -140,7 +140,7 @@ export function NavItems() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent">
+          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
             CONTACTS
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -157,7 +157,7 @@ export function NavItems() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/quote" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium mx-2">
+            <NavigationMenuLink className="text-white font-medium mx-2 hover:text-primary-2">
               REQUEST/QUOTE
             </NavigationMenuLink>
           </Link>
