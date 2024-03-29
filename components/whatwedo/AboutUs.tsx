@@ -41,8 +41,8 @@ const grids: { index: string; title: string; description: string }[] = [
 
 const AboutUs = () => {
   return (
-    <div className="flex min-h-screen items-center p-4 md:p-24">
-      <div className="md:flex hidden max-w-5xl items-center justify-between text-sm context w-full mx-auto">
+    <div className="flex min-h-screen items-center md:p-24 p-6">
+      <div className="md:flex  max-w-5xl items-center justify-between text-sm context w-full mx-auto mt-8 ">
         <div>
           <div className="" />
           <span>WHAT WE DO</span>
@@ -50,7 +50,7 @@ const AboutUs = () => {
             Multi-Disciplined Engineering{" "}
             <span className="text-secondary-1">Solutions</span>
           </h1>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
               <div
                 key={grid.index}

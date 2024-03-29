@@ -47,14 +47,14 @@ const grids: {
 const Projects = () => {
   return (
     <div className="flex min-h-screen items-center p-4 md:p-24 bg-primary-1">
-      <div className="md:flex hidden max-w-5xl items-center justify-between text-sm context w-full mx-auto">
+      <div className="md:flex  max-w-5xl items-center justify-between text-sm context w-full mx-auto">
         <div>
           <div className="" />
           <span className="text-white">WHAT WE DO</span>
           <h1 className="text-5xl text-white font-bold max-w-[600px] py-8">
             Our <span className="text-secondary-1">Projects</span>
           </h1>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
               <div key={grid.index} className="p-2">
                 <img src={grid.image} alt={grid.title} />

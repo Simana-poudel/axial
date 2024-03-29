@@ -13,6 +13,8 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { SheetDemo } from "../SheetDemo";
 
 const services: { title: string; href: string }[] = [
   {
@@ -71,99 +73,107 @@ const pages: { title: string; href: string }[] = [
 
 export function NavItems() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
-              HOME
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
-              ABOUT
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+    <div>
+      <NavigationMenu className="md:flex hidden">
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
+                HOME
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
+                ABOUT
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-            SERVICES
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className=" w-[100px] ">
-              {services.map((item) => (
-                <ListItem
-                  key={item.title}
-                  title={item.title}
-                  href={item.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
+              SERVICES
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className=" w-[100px] ">
+                {services.map((item) => (
+                  <ListItem
+                    key={item.title}
+                    title={item.title}
+                    href={item.href}
+                  ></ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-            PROJECTS
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className=" w-[100px] ">
-              {projects.map((item) => (
-                <ListItem
-                  key={item.title}
-                  title={item.title}
-                  href={item.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
+              PROJECTS
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className=" w-[100px] ">
+                {projects.map((item) => (
+                  <ListItem
+                    key={item.title}
+                    title={item.title}
+                    href={item.href}
+                  ></ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-            BLOG
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className=" w-[100px] ">
-              {blogs.map((item) => (
-                <ListItem
-                  key={item.title}
-                  title={item.title}
-                  href={item.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
+              BLOG
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className=" w-[100px] ">
+                {blogs.map((item) => (
+                  <ListItem
+                    key={item.title}
+                    title={item.title}
+                    href={item.href}
+                  ></ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-            CONTACTS
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className=" w-[100px] ">
-              {contacts.map((item) => (
-                <ListItem
-                  key={item.title}
-                  title={item.title}
-                  href={item.href}
-                ></ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/quote" legacyBehavior passHref>
-            <NavigationMenuLink className="text-white font-medium mx-2 hover:text-primary-2">
-              REQUEST/QUOTE
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
+              CONTACTS
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className=" w-[100px] ">
+                {contacts.map((item) => (
+                  <ListItem
+                    key={item.title}
+                    title={item.title}
+                    href={item.href}
+                  ></ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/quote" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium mx-2 hover:text-primary-2">
+                REQUEST/QUOTE
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+
+      <div className="md:hidden flex">
+        <div className="pl-4">
+          <SheetDemo />
+        </div>
+      </div>
+    </div>
   );
 }
 
