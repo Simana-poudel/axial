@@ -74,3 +74,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+roboto {
+  font-family: var(--font-roboto);
+}
+
+.image-tablet-view {
+  position: absolute;
+  top: 200px;
+}

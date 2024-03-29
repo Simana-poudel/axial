@@ -6,13 +6,13 @@ const Landingpage = () => {
   return (
     <div>
       <div className=" pt-24 bg-primary-1">
-        <div className="md:flex hidden max-w-5xl mx-auto justify-between py-24 ">
+        <div className="lg:flex hidden max-w-7xl mx-auto justify-between py-24 ">
           <div className="max-w-[450px] p-4">
             <h1 className="z-1 relative mb-7 text-white  font-bold text-5xl">
               Exceptional Service Exceeding Expectations
             </h1>
             <div>
-              <span className="text-white">
+              <span className="text-white roboto">
                 Our civil and structural team is committed to providing
                 sustainable, creative & efficient engineering solutions for our
                 communities
@@ -61,23 +61,23 @@ const Landingpage = () => {
         </div>
       </div>
 
-      <div className="md:hidden flex-col bg-primary-1">
+      <div className="lg:hidden flex-col bg-primary-1">
         {/* mobile navigatin */}
-        <div className="p-5">
+        <div className="p-5 md:max-w-[550px] md:pt-36">
           <div className="mb-4 pl-5 text-white  font-semibold text-base">
             PROFESSIONAL. INNOVATIVE. RELIABLE
           </div>
-          <h1 className="z-1 relative text-white  font-extrabold text-4xl">
+          <h1 className="z-1 relative text-white  font-extrabold text-4xl md:text-5xl">
             Exceptional Service Exceeding Expectations
           </h1>
           <div className="mb-7 mt-5 px-2">
-            <span className="text-white text-[17px] ">
+            <span className="text-white text-[17px] roboto">
               Our civil and structural team is committed to providing
               sustainable, creative & efficient engineering solutions for our
               communities
             </span>
           </div>
-          <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 w-full rounded-none">
+          <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 md:w-min md:py-8 w-full rounded-none">
             Request/quote
           </Button>
         </div>
@@ -94,7 +94,7 @@ const Landingpage = () => {
             </p>
           </div>
         </div>
-        <div className="w-full overflow-hidden h-52">
+        <div className="w-full md:absolute md:top-[650px] overflow-hidden h-52">
           <Image
             src={"/images/home/building_mini.webp"}
             alt="building"

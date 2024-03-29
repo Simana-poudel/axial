@@ -74,7 +74,7 @@ const pages: { title: string; href: string }[] = [
 export function NavItems() {
   return (
     <div>
-      <NavigationMenu className="md:flex hidden">
+      <NavigationMenu className="lg:flex hidden ">
         <NavigationMenuList>
           <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
@@ -168,7 +168,7 @@ export function NavItems() {
         </NavigationMenuList>
       </NavigationMenu>
 
-      <div className="md:hidden flex">
+      <div className="lg:hidden flex">
         <div className="pl-4">
           <SheetDemo />
         </div>
