@@ -62,10 +62,10 @@ export function NavItems() {
             </Link>
           </NavigationMenuItem>
 
-          <NavigationMenuItem className="mt-1">
+          <NavigationMenuItem className="mt-3">
             <Link href="/request" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                <Button className="bg-primary-2 md:max-w-min mb-4 text-black font-bold text-lg hover:bg-primary-2 px-8 rounded-none">
+                <Button className="bg-primary-2 md:max-w-min mb-4 text-black font-bold text-lg hover:bg-primary-2 px-4 rounded-none">
                   Request/Quote
                 </Button>
               </NavigationMenuLink>

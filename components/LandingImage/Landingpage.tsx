@@ -18,7 +18,7 @@ const Landingpage = () => {
                 Exceptional Service Exceeding Expectations
               </h1>
               <div className="mb-7 mt-5 px-2">
-                <span className="text-white text-[17px] roboto">
+                <span className="text-white text-[17px] font-roboto">
                   Our civil and structural team is committed to providing
                   sustainable, creative & efficient engineering solutions for
                   our communities

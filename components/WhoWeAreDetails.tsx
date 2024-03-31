@@ -12,7 +12,7 @@ const WhoWeAreDetails = () => {
                 WHO WE ARE
               </span>
             </div>
-            <h1 className="text-5xl text-white font-bold w-full py-8">
+            <h1 className="text-4xl text-white font-bold w-full py-8">
               Pulvinar elementum integer enim neque volutpat ac. Amet dictum sit
               amet justo donec enim diam vulputate ut. Egestas sed sed risus
               pretium quam. Viverra accumsan in nisl nisi scelerisque eu

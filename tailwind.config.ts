@@ -79,7 +79,7 @@ const config = {
     },
     fontFamily: {
       sans: ["var(--font-inter)"],
-      roboto: ["var(--font-roboto)"],
+      roboto: ["Roboto", "sans-serif"],
     },
   },
   plugins: [require("tailwindcss-animate")],

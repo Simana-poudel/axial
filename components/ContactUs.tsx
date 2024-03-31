@@ -21,19 +21,21 @@ const ContactUs = () => {
   return (
     <div className="flex items-center bg-white py-4">
       <div className="md:flex max-w-7xl mx-auto w-full flex-col items-center md:py-6">
-        <div className="px-4 md:self-start">
-          <div className="flex">
-            <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
-            <span className="text-black font-medium text-base uppercase">
-              Contact Us
-            </span>
-          </div>
-          <h1 className="text-4xl md:text-[40px] font-bold max-w-[600px] py-8">
-            Do Yo Have any <span className="text-secondary-1">Questions ?</span>
-          </h1>
-        </div>
-        <div className="grid lg:grid-cols-4 lg:gap-4 gap-0 w-[90%] lg:w-full px-4 md:self-start">
+        <div className="grid lg:grid-cols-4 lg:gap-4 gap-0 w-[90%] lg:w-full px-4 md:self-start lg:py-10">
           <div className="col-span-3 lg:w-[90%] w-[100%] justify-self-start">
+            <div className="px-4 md:self-start">
+              <div className="flex">
+                <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+                <span className="text-black font-medium text-base uppercase">
+                  Contact Us
+                </span>
+              </div>
+              <h1 className="text-4xl md:text-[40px] font-bold max-w-[600px] py-8">
+                Do Yo Have any{" "}
+                <span className="text-secondary-1">Questions ?</span>
+              </h1>
+            </div>
+
             <form>
               <div className="grid w-full items-center gap-4 mb-4">
                 <div className="md:grid md:grid-cols-2 md:gap-4">

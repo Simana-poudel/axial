@@ -30,23 +30,23 @@ const WhoWeAre = () => {
             </p>
             <div className=" text-base mt-6 font-semibold">
               <div className=" place-content-start flex-col text-left">
-                <div className="flex items-center">
+                <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
                   <p className="py-1 pl-2">Making lives easier</p>
                 </div>
 
-                <div className="flex items-center">
+                <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
                   <p className="py-1 pl-2">Get every solution right here</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
                   <p className="py-1 pl-2">Innovation and creativity</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
                   <p className="py-1 pl-2">Fine engineering only with us</p>
@@ -60,7 +60,7 @@ const WhoWeAre = () => {
 
           <div>
             <Image
-              src={"/images/projects/project1.webp"}
+              src={"/images/aboutimage/bringingyourideas.webp"}
               alt="building"
               height={350}
               width={650}

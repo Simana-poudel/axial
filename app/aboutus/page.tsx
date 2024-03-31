@@ -1,4 +1,5 @@
 import ImageGrid from "@/components/ImageGrid";
+import JustFeelTheFuture from "@/components/JustFeelTheFuture";
 import OthersPageTopUI from "@/components/OthersPageTopUI";
 import WhoWeAre from "@/components/WhoWeAre";
 import WhoWeAreDetails from "@/components/WhoWeAreDetails";
@@ -14,6 +15,7 @@ const AboutUs = () => {
       <OthersPageTopUI pageTitle={pageTitle} />
       <WhoWeAre />
       <WhoWeAreDetails />
+      <JustFeelTheFuture />
       <ImageGrid />
       <WhyChooseUS backgroundColor={backgroundColor} textColor={textColor} />
     </div>
