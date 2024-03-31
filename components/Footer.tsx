@@ -11,7 +11,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="flex items-center bg-sky-blue md:py-24 bg-primary-1">
+    <div className="flex items-center bg-sky-blue md:pt-10 bg-primary-1">
       {/* <div className="md:flex hidden max-w-5xl mx-auto w-full flex-col items-center">
         <div className="grid grid-cols-4 gap-4 w-[100%]">
           <div className="">
