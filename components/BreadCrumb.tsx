@@ -8,17 +8,23 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-const BreadCrumb = () => {
+interface BreadCrumbProps {
+  pageTitle?: string;
+}
+
+const BreadCrumb: React.FC<BreadCrumbProps> = ({ pageTitle }) => {
   return (
     <div>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">home</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/aboutus">About</BreadcrumbLink>
+            <BreadcrumbLink href={`/${pageTitle?.toLowerCase()}`}>
+              {pageTitle}
+            </BreadcrumbLink>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>

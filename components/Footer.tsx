@@ -12,76 +12,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div className="flex items-center bg-sky-blue md:pt-10 bg-primary-1">
-      {/* <div className="md:flex hidden max-w-5xl mx-auto w-full flex-col items-center">
-        <div className="grid grid-cols-4 gap-4 w-[100%]">
-          <div className="">
-            <h1 className="text-blue text-xl mb-7 font-bold">Company</h1>
-            <div className="font-light text-gray">
-              <a className="block mb-3" href="#">
-                Why choose us
-              </a>
-              <a className="block mb-3" href="#">
-                Review
-              </a>
-              <a className="block mb-3" href="#">
-                Customers
-              </a>
-              <a className="block mb-3" href="#">
-                Blog
-              </a>
-              <a className="block mb-3" href="#">
-                Carrier
-              </a>
-            </div>
-          </div>
-          <div className="">
-            <h1 className="text-blue text-xl mb-7 font-bold">Production</h1>
-            <div className="font-light text-gray">
-              <a className="block mb-3" href="#">
-                Technology
-              </a>
-              <a className="block mb-3" href="#">
-                Products
-              </a>
-              <a className="block mb-3" href="#">
-                Quality
-              </a>
-              <a className="block mb-3" href="#">
-                Sales geography
-              </a>
-            </div>
-          </div>
-          <div className="">
-            <h1 className="text-blue text-xl mb-7 font-bold">Contact Us</h1>
-            <div className="font-light text-gray">
-              <p className="block mb-3">Address: 726/B green</p>
-              <p className="block mb-6">avenue Kaski, Pokhara</p>
-              <p className="block mb-4">Phone: +23 333 4444 555</p>
-              <p className="block mb-3">Email: company@gmail.com</p>
-            </div>
-          </div>
-          <div className="">
-            <h1 className="text-blue text-xl mb-7 font-bold">Newsletter</h1>
-            <div className="font-light text-gray">
-              <p className="block mb-6">
-                Subscribe our newsletter to get updates about our services
-              </p>
-              <form>
-                <div className="flex flex-col space-y-1.5">
-                  <Input id="name" placeholder="Your Email" />
-                  <Button className="bg-gradient-to-r from-gradient-1 to-gradient-2">
-                    Subscribe
-                  </Button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* mobile navigation */}
-
-      <div className=" md:flex max-w-7xl mx-auto w-full  flex-col items-center">
+      <div className=" md:flex max-w-7xl mx-auto w-full  flex-col items-center ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
           <div>
             <div className="">
@@ -152,8 +83,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[90%] h-[1px] bg-white my-10" />
-        <div className="md:grid md:grid-cols-2">
+        <div className="w-full md:w-full  h-[1px] bg-white my-10" />
+        <div className="md:grid md:grid-cols-2 md:w-full">
           <div className="font-medium text-white text-[17px] mb-3">
             <p className="block m-6">
               © BLACK TECH PVT.LTD.

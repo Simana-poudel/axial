@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import BreadCrumb from "./BreadCrumb";
 
-const OthersPageTopUI = () => {
+interface OthersPageTopUIProps {
+  pageTitle?: string;
+}
+
+const OthersPageTopUI: React.FC<OthersPageTopUIProps> = ({ pageTitle }) => {
   return (
     <div>
       <div>
@@ -18,10 +22,10 @@ const OthersPageTopUI = () => {
                   </div>
                 </div>
                 <h1 className="z-1 relative text-white  font-extrabold text-4xl md:text-5xl lg:text-[58px]">
-                  About
+                  {pageTitle}
                 </h1>
                 <div className="mb-7 mt-5 px-2">
-                  <BreadCrumb />
+                  <BreadCrumb pageTitle={pageTitle} />
                 </div>
               </div>
               <div className="w-full absolute md:top-[160px] xl:left-[690px] md:h-[280px]">

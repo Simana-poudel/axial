@@ -10,13 +10,16 @@ import AboutUs from "@/components/whatwedo/AboutUs";
 import Projects from "@/components/whatwedo/Projects";
 
 export default function Home() {
+  const backgroundColor = "#001f3f"; // White color
+  const textColor = "white"; // Black color
+
   return (
     <div>
       <Landingpage />
       <AboutUs />
       <Projects />
       <WhereWeWork />
-      <WhyChooseUS />
+      <WhyChooseUS backgroundColor={backgroundColor} textColor={textColor} />
       <TruthInEngineering />
       <DealingWithWorries />
       <BuildingTheFuture />

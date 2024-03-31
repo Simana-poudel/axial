@@ -15,61 +15,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { SheetDemo } from "../SheetDemo";
-
-const services: { title: string; href: string }[] = [
-  {
-    title: "Service 1",
-    href: "/service1",
-  },
-  {
-    title: "Service 2",
-    href: "/service2",
-  },
-];
-
-const projects: { title: string; href: string }[] = [
-  {
-    title: "Project 1",
-    href: "/project1",
-  },
-  {
-    title: "Project 2",
-    href: "/project2",
-  },
-];
-
-const blogs: { title: string; href: string }[] = [
-  {
-    title: "Blog 1",
-    href: "/blog1",
-  },
-  {
-    title: "Blog 2",
-    href: "/blog2",
-  },
-];
-
-const contacts: { title: string; href: string }[] = [
-  {
-    title: "Contact 1",
-    href: "/contact1",
-  },
-  {
-    title: "Contact 2",
-    href: "/contact2",
-  },
-];
-
-const pages: { title: string; href: string }[] = [
-  {
-    title: "Page 1",
-    href: "/page1",
-  },
-  {
-    title: "Page 2",
-    href: "/page2",
-  },
-];
+import { Button } from "../ui/button";
 
 export function NavItems() {
   return (
@@ -83,6 +29,7 @@ export function NavItems() {
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
+
           <NavigationMenuItem className="mt-1">
             <Link href="/aboutus" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
@@ -91,55 +38,38 @@ export function NavItems() {
             </Link>
           </NavigationMenuItem>
 
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-              SERVICES
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className=" w-[100px] ">
-                {services.map((item) => (
-                  <ListItem
-                    key={item.title}
-                    title={item.title}
-                    href={item.href}
-                  ></ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
+          <NavigationMenuItem className="mt-1">
+            <Link href="/services" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
+                SERVICES
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
 
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-              PROJECTS
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className=" w-[100px] ">
-                {projects.map((item) => (
-                  <ListItem
-                    key={item.title}
-                    title={item.title}
-                    href={item.href}
-                  ></ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
+          <NavigationMenuItem className="mt-1">
+            <Link href="/projects" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
+                PROJECTS
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
 
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-              BLOG
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className=" w-[100px] ">
-                {blogs.map((item) => (
-                  <ListItem
-                    key={item.title}
-                    title={item.title}
-                    href={item.href}
-                  ></ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
+          <NavigationMenuItem className="mt-1">
+            <Link href="/blog" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
+                BLOG
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem className="mt-1">
+            <Link href="/request" legacyBehavior passHref>
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
+                <Button className="bg-primary-2 md:max-w-min mb-4 text-black font-bold text-lg hover:bg-primary-2 px-8 rounded-none">
+                  Request/Quote
+                </Button>
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
 
           {/* <NavigationMenuItem>
@@ -158,13 +88,6 @@ export function NavItems() {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem> */}
-          <NavigationMenuItem>
-            <Link href="/quote" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium mx-2 hover:text-primary-2">
-                REQUEST/QUOTE
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
 

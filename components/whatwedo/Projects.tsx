@@ -1,5 +1,10 @@
 import React from "react";
 
+interface ProjectProps {
+  backgroundColor?: string;
+  textColor?: string;
+}
+
 const grids: {
   index: string;
   image: string;
@@ -44,27 +49,48 @@ const grids: {
   },
 ];
 
-const Projects = () => {
+const Projects: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
   return (
-    <div className="flex md:py-10 items-center p-4 lg:py-24 bg-primary-1">
+    <div
+      style={{ backgroundColor: backgroundColor }}
+      className="flex md:py-10 items-center p-4 lg:py-24 bg-primary-1"
+    >
       <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>
-          <div className="" />
-          <span className="text-white">WHAT WE DO</span>
-          <h1 className="text-5xl text-white font-bold max-w-[600px] py-8">
+          <div className="flex">
+            <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+            <span
+              style={{ color: textColor }}
+              className="text-white font-medium text-base uppercase"
+            >
+              WHAT WE DID
+            </span>
+          </div>
+          <h1
+            style={{ color: textColor }}
+            className="text-5xl text-white font-bold max-w-[600px] py-8"
+          >
             Our <span className="text-secondary-1">Projects</span>
           </h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
               <div key={grid.index} className="p-2">
                 <img src={grid.image} alt={grid.title} />
-                <h2 className="text-2xl py-2 font-bold text-white">
+                <h2
+                  style={{ color: textColor }}
+                  className="text-2xl py-2 font-bold text-white"
+                >
                   {grid.title}
                 </h2>
                 <div className="w-full h-[1px] bg-primary-2" />
 
                 <div className="flex justify-between py-3">
-                  <p className="text-white text-lg ">{grid.location}</p>
+                  <p
+                    style={{ color: textColor }}
+                    className="text-white text-lg "
+                  >
+                    {grid.location}
+                  </p>
                   <button className=" cursor-pointer text-primary-2 py-3 font-semibold text-lg">
                     DETAILS <span> - </span>
                   </button>

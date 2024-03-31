@@ -1,4 +1,10 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+
+interface WhyChooseUSProps {
+  backgroundColor?: string;
+  textColor?: string;
+}
 
 const grids: { index: string; title: string; description: string }[] = [
   {
@@ -33,37 +39,79 @@ const grids: { index: string; title: string; description: string }[] = [
   },
 ];
 
-const WhyChooseUS = () => {
+const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
+  backgroundColor,
+  textColor,
+}) => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-24 bg-primary-1">
+    <div
+      style={{ backgroundColor: backgroundColor }}
+      className="flex items-center p-4 md:py-10 lg:py-24 "
+    >
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 lg:gap-6">
             <div>
-              <div className="" />
-              <span className="text-white">WHY CHOOSE US</span>
-              <h1 className="text-4xl font-bold max-w-[300px] text-white py-8">
+              <div className="flex">
+                <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+                <span
+                  style={{ color: textColor }}
+                  className=" font-medium text-base uppercase"
+                >
+                  WHy choose us
+                </span>
+              </div>
+              <h1
+                style={{ color: textColor }}
+                className="text-4xl font-bold max-w-[300px] py-8"
+              >
                 <span className="text-secondary-1">Design </span>
                 Future with Excellence{" "}
               </h1>
-              <div className="text-white text-base">
-                <div className="flex">
-                  <p className="py-1">Building the future with ideas</p>
+              <div style={{ color: textColor }} className=" text-base">
+                <div className=" place-content-start flex-col text-left">
+                  <div className="flex items-center">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">Making lives easier</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">Get every solution right here</p>
+                  </div>
+                  <div className="flex items-center">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">Innovation and creativity</p>
+                  </div>
+                  <div className="flex items-center">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">Fine engineering only with us</p>
+                  </div>
                 </div>
-                <p className="py-1">Designing future with excellence</p>
-                <p className="py-1">Discovering possibility concrete</p>
               </div>
             </div>
             {grids.map((grid) => (
               <div
                 key={grid.index}
-                className="bg-transparent p-10 border border-white hover:border-primary-2"
+                style={{ borderColor: textColor }}
+                className="bg-transparent p-10 border hover:border-primary-2"
               >
                 <div className="text-5xl font-extrabold text-[#e9e6e6]">
                   {grid.index}
                 </div>
-                <h2 className="text-2xl font-bold text-white">{grid.title}</h2>
-                <p className="text-white text-lg">{grid.description}</p>
+                <h2
+                  style={{ color: textColor }}
+                  className="text-2xl font-bold "
+                >
+                  {grid.title}
+                </h2>
+                <p style={{ color: textColor }} className=" text-lg">
+                  {grid.description}
+                </p>
               </div>
             ))}
           </div>

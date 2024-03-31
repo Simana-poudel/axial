@@ -1,20 +1,16 @@
+import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
-import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
-const WhoWeAre = () => {
+const JustFeelTheFuture = () => {
   return (
     <div className="flex items-center p-4 md:py-10 lg:py-24">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
           <div className="md:flex-col md:items-center">
-            <div className="flex">
-              <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
-              <span className="text-black font-medium text-base uppercase">
-                who we are
-              </span>
-            </div>
+            <div className="" />
+            <span className="">DEALING WITH YOUR WORRIES</span>
             <h1 className="text-4xl font-bold md:max-w-full max-w-[600px] py-4">
               Bringing
               <span className="text-secondary-1">
@@ -73,4 +69,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default JustFeelTheFuture;

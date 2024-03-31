@@ -44,8 +44,12 @@ const AboutUs = () => {
     <div className="flex items-center lg:py-24 p-6">
       <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto mt-8 ">
         <div>
-          <div className="" />
-          <span>WHAT WE DO</span>
+          <div className="flex">
+            <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+            <span className="text-black font-medium text-base uppercase">
+              WHAT WE DO
+            </span>
+          </div>
           <h1 className="text-5xl font-bold max-w-[600px] py-8">
             Multi-Disciplined Engineering{" "}
             <span className="text-secondary-1">Solutions</span>

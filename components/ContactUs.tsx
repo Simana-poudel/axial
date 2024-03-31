@@ -22,8 +22,12 @@ const ContactUs = () => {
     <div className="flex items-center bg-white py-4">
       <div className="md:flex max-w-7xl mx-auto w-full flex-col items-center md:py-6">
         <div className="px-4 md:self-start">
-          <div className="" />
-          <span className="uppercase">Contact us</span>
+          <div className="flex">
+            <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+            <span className="text-black font-medium text-base uppercase">
+              Contact Us
+            </span>
+          </div>
           <h1 className="text-4xl md:text-[40px] font-bold max-w-[600px] py-8">
             Do Yo Have any <span className="text-secondary-1">Questions ?</span>
           </h1>
@@ -33,21 +37,20 @@ const ContactUs = () => {
             <form>
               <div className="grid w-full items-center gap-4 mb-4">
                 <div className="md:grid md:grid-cols-2 md:gap-4">
-
-                <div className="">
-                  <Input
-                    className="rounded-none w-full"
-                    id="name"
-                    placeholder="Full Name"
-                  />
-                </div>
-                <div className="">
-                  <Input
-                    className="rounded-none w-full "
-                    id="phone"
-                    placeholder="Phone"
-                  />
-                </div>
+                  <div className="">
+                    <Input
+                      className="rounded-none w-full"
+                      id="name"
+                      placeholder="Full Name"
+                    />
+                  </div>
+                  <div className="">
+                    <Input
+                      className="rounded-none w-full "
+                      id="phone"
+                      placeholder="Phone"
+                    />
+                  </div>
                 </div>
                 <div className="">
                   <Input

@@ -8,8 +8,12 @@ const TruthInEngineering = () => {
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="grid grid-cols-1">
           <div>
-            <div className="" />
-            <span className="text-white">TRUTH IN ENGINEERING</span>
+            <div className="flex">
+              <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
+              <span className="text-white font-medium text-base uppercase">
+                Truth in engineering
+              </span>
+            </div>
             <div className="lg:flex lg:justify-between">
               <h1 className="text-4xl text-white font-bold max-w-[600px] py-8">
                 <span className="text-secondary-1">Our Team </span>
