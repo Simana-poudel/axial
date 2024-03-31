@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Archivo, Roboto } from "next/font/google";
+import { Inter, Archivo, Roboto, Arimo } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/NavBar/Header";
 import Footer from "@/components/Footer";
@@ -11,6 +11,7 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
 });
+const arimo = Arimo({ subsets: ["latin"] });
 const archivo = Archivo({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

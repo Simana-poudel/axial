@@ -3,6 +3,11 @@ import React from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
+import MediaLinks from "./MediaLinks";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { RiWhatsappFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -76,21 +81,23 @@ const Footer = () => {
 
       {/* mobile navigation */}
 
-      <div className=" md:flex max-w-5xl mx-auto w-full  flex-col items-center">
-        <div className="grid grid-cols-1 gap-4 px-4">
-          <div className="">
-            <Image
-              src={"/images/ALD Logo/PNG/Artboard 1@4x.png"}
-              alt="Logo"
-              width={150}
-              height={30}
-            />
+      <div className=" md:flex max-w-7xl mx-auto w-full  flex-col items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
+          <div>
+            <div className="">
+              <Image
+                src={"/images/ALD Logo/PNG/Artboard 1@4x.png"}
+                alt="Logo"
+                width={150}
+                height={30}
+              />
+            </div>
+            <p className=" text-lg text-white">
+              Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
+              habitasse platea. Velit egestas
+            </p>
           </div>
-          <p className=" text-lg text-white">
-            Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-            habitasse platea. Velit egestas
-          </p>
-          <div className="">
+          <div className=" md:mx-6">
             <div className="">
               <h1 className="text-white text-2xl mb-7 font-bold">Contact Us</h1>
               <div className="font-medium text-white text-[17px]">
@@ -100,6 +107,8 @@ const Footer = () => {
                 <p className="block mb-3">East Janayster</p>
               </div>
             </div>
+          </div>
+          <div className="md:mx-6">
             <h1 className="text-white text-2xl mb-7 font-bold">Company</h1>
             <div className="font-medium text-white text-[17px]">
               <a className="block mb-3" href="#">
@@ -119,7 +128,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
           <div className="">
             <h1 className="text-white text-2xl mb-4 font-bold">
               Subscribe to Our News
@@ -141,15 +149,24 @@ const Footer = () => {
                 </div>
               </form>
             </div>
-            <div className="w-full h-[1px] bg-white my-10" />
-            <div>
-              <div className="font-medium text-white text-[17px] mb-3">
-                <p className="block m-6 ">
-                  © BLACK TECH PVT.LTD.
-                  <br />
-                  All rights reserved Copyrights 2024.
-                </p>
-              </div>
+          </div>
+        </div>
+
+        <div className="w-full md:w-[90%] h-[1px] bg-white my-10" />
+        <div className="md:grid md:grid-cols-2">
+          <div className="font-medium text-white text-[17px] mb-3">
+            <p className="block m-6">
+              © BLACK TECH PVT.LTD.
+              <br />
+              All rights reserved Copyrights 2024.
+            </p>
+          </div>
+          <div className="md:flex hidden justify-end">
+            <div className="flex gap-3 md:gap-4">
+              <FaFacebook className=" size-8 md:size-10 text-primary-2" />
+              <FaSquareInstagram className=" size-8 md:size-10 text-primary-2" />
+              <AiFillTwitterCircle className=" size-8 md:size-10 text-primary-2" />
+              <RiWhatsappFill className=" size-8 md:size-10 text-primary-2" />
             </div>
           </div>
         </div>

@@ -76,16 +76,16 @@ export function NavItems() {
     <div>
       <NavigationMenu className="lg:flex hidden ">
         <NavigationMenuList>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="mt-1">
             <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
                 HOME
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="mt-1">
             <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium p-3 hover:text-primary-2">
+              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
                 ABOUT
               </NavigationMenuLink>
             </Link>

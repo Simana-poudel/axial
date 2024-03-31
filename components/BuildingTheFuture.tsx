@@ -36,18 +36,21 @@ const grids: {
 
 const BuildingTheFuture = () => {
   return (
-    <div className="flex min-h-screen items-center p-4 md:p-24 ">
-      <div className="md:flex  max-w-5xl items-center justify-between text-sm context w-full mx-auto">
+    <div className="flex min-h-screen items-center p-4 md:py-24 ">
+      <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>
           <div className="" />
           <span className="uppercase">Building the future</span>
+          <div className="md:flex md:justify-between">
+
           <h1 className="text-4xl font-bold max-w-[600px] py-8">
             Latest From the <span className="text-secondary-1">Blog</span>
           </h1>
-          <Button className="bg-primary-2 mb-4 uppercase text-black font-bold text-lg hover:bg-primary-2 px-8 w-full rounded-none">
+          <Button className="bg-primary-2 md:max-w-min mb-4 uppercase text-black font-bold text-lg hover:bg-primary-2 px-8 w-full rounded-none">
             Our Blog
           </Button>
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
               <div key={grid.index} className="">
                 <img src={grid.image} alt={grid.title} />

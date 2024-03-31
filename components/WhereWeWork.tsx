@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 
 const WhereWeWork = () => {
   return (
-    <div className="flex min-h-screen items-center p-4 md:p-24">
-      <div className="md:flex max-w-5xl items-center justify-between text-sm context w-full mx-auto">
-        <div className="grid md:grid-cols-2 grid-cols-1">
+    <div className="flex items-center p-4 md:py-10 lg:py-24">
+      <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <div>
             <div className="" />
             <span>WHERE WE WORK</span>
@@ -21,7 +21,7 @@ const WhereWeWork = () => {
               alt="Map"
             />
           </div>
-          <div className="my-8 md:pl-10">
+          <div className="my-8 lg:pl-10">
             <p className="text-lg leading-7">
               Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
               habitasse platea. Velit egestas dui id ornare arcu. Sapien
