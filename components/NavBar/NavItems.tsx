@@ -142,7 +142,7 @@ export function NavItems() {
             </NavigationMenuContent>
           </NavigationMenuItem>
 
-          <NavigationMenuItem>
+          {/* <NavigationMenuItem>
             <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
               CONTACTS
             </NavigationMenuTrigger>
@@ -157,7 +157,7 @@ export function NavItems() {
                 ))}
               </ul>
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
           <NavigationMenuItem>
             <Link href="/quote" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium mx-2 hover:text-primary-2">

@@ -3,14 +3,14 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div>
+    <div className="min-h-max ">
       {/* desktop nav */}
       <div className="md:flex hidden">
         <Image
           src={"/images/ALD Logo/PNG/Artboard 1@4x.png"}
           alt="Logo"
-          width={200}
-          height={80}
+          width={160}
+          height={160}
         />
       </div>
 
