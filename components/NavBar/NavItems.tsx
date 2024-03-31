@@ -84,7 +84,7 @@ export function NavItems() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem className="mt-1">
-            <Link href="/" legacyBehavior passHref>
+            <Link href="/aboutus" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
                 ABOUT
               </NavigationMenuLink>

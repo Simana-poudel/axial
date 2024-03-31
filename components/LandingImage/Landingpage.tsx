@@ -6,8 +6,9 @@ const Landingpage = () => {
   return (
     <div>
       <div className=" pt-24 bg-primary-1">
-        <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[890px] flex-col bg-primary-1 overflow-hidden">
-          {/* mobile navigatin */}
+        <div className=" absolute w-[503px] top-[240px] h-[2px] left-5 bg-primary-2 my-2" />
+
+        <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[790px] flex-col bg-primary-1 overflow-hidden">
           <div className="lg:flex lg:justify-between">
             <div className="p-5 md:max-w-[550px] lg:max-w-[600px] md:pt-36">
               <div className="mb-4 pl-5 text-white  font-semibold text-base">
@@ -48,16 +49,16 @@ const Landingpage = () => {
             </div>
           </div>
 
-          <div className="z-20 w-full md:absolute md:top-[570px] lg:left-[190px] xl:left-[340px] overflow-hidden md:h-80 h-52">
+          <div className="z-20 w-full md:absolute md:top-[470px] lg:left-[190px] xl:left-[340px] overflow-hidden md:h-80 h-52">
             <Image
               src={"/images/home/building_mini.webp"}
               alt="building"
               height={450}
               width={750}
-              className="object-cover translate-x-5 translate-y-20 md:scale-110 scale-150	"
+              className="object-cover translate-x-5 translate-y-20 md:scale-110 scale-150"
             />
           </div>
-          <div className="z-10 w-full md:flex hidden md:absolute md:top-[570px] xl:left-[90px] overflow-hidden md:h-80 h-52">
+          <div className="z-10 w-full md:flex hidden md:absolute md:top-[500px] xl:left-[70px] overflow-hidden md:h-80 h-52">
             <Image
               src={"/images/home/plan.webp"}
               alt="building"
