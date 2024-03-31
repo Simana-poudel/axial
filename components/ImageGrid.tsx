@@ -9,7 +9,7 @@ const ImageGrid = () => {
           <Image
             src={"/images/imagegrid/grid1.webp"}
             alt="Image1"
-            width={560}
+            width={1000}
             height={400}
           />
         </div>
@@ -17,7 +17,7 @@ const ImageGrid = () => {
           <Image
             src={"/images/imagegrid/grid2.webp"}
             alt="Image2"
-            width={560}
+            width={1000}
             height={400}
           />
         </div>
@@ -25,7 +25,7 @@ const ImageGrid = () => {
           <Image
             src={"/images/imagegrid/grid3.webp"}
             alt="Image3"
-            width={560}
+            width={1000}
             height={400}
           />
         </div>
@@ -33,7 +33,7 @@ const ImageGrid = () => {
           <Image
             src={"/images/imagegrid/grid4.webp"}
             alt="Image4"
-            width={560}
+            width={1000}
             height={400}
           />
         </div>
