@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
-import Link from "next/link";
 
 const DealingWithWorries = () => {
   const [expandedIndex, setExpandedIndex] = useState<number>(0); // Initialize with 0
