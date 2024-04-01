@@ -16,37 +16,37 @@ const grids: {
 }[] = [
   {
     index: "1",
-    title: "Process Engineering",
+    title: "Expertise",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit soluta aspernatur tempore.",
+      "With over a decade of experience, we bring unmatched expertise for high-quality and efficient project execution.",
     path: "/assets/uniqueproject.svg",
   },
   {
     index: "2",
-    title: "Container 2",
+    title: "Commitment to Excellence",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit soluta aspernatur tempore.",
+      "We uphold the highest standards of quality & professionalism, ensuring attention to detail and customer satisfaction in all our work.",
     path: "/assets/inconvenience.svg",
   },
   {
     index: "3",
-    title: "Container 3",
+    title: "Sustainability",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit soluta aspernatur tempore.",
+      "We prioritize environmental sustainability, implementing green practices and waste management strategies to minimize our ecological footprint.",
     path: "/assets/Experience.svg",
   },
   {
     index: "4",
-    title: "Container 4",
+    title: "Reliability",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit soluta aspernatur tempore.",
+      "You can count on our reliable team, advanced equipment, and efficient management for on-time, on-budget project delivery.",
     path: "/assets/innovative.svg",
   },
   {
     index: "5",
-    title: "Container 5",
+    title: "Safety",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit soluta aspernatur tempore.",
+      "Safety is paramount, and we maintain rigorous protocols to ensure a secure work environment for everyone involved.",
     path: "/assets/longterm.svg",
   },
 ];
@@ -76,33 +76,18 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
               </div>
               <h1
                 style={{ color: textColor }}
-                className="text-4xl font-bold max-w-[300px] py-8 lg:max-w-[400px] lg:text-5xl"
+                className="text-4xl font-bold max-w-[500px] py-8 lg:max-w-[520px] lg:text-5xl"
               >
-                <span className="text-secondary-1">Design </span>
-                Future with Excellence{" "}
+                <span className="text-secondary-1">Setting </span>
+                New Standards in Construction{" "}
               </h1>
               <div style={{ color: textColor }} className=" text-base">
                 <div className=" place-content-start flex-col text-left">
                   <div className="flex items-center">
-                    <FaArrowRight className="text-secondary-1 " />
-
-                    <p className="py-1 pl-2 lg:text-[17px]">
-                      Making lives easier
-                    </p>
-                  </div>
-
-                  <div className="flex items-center">
-                    <FaArrowRight className="text-secondary-1 " />
-
-                    <p className="py-1 pl-2 lg:text-[17px]">
-                      Get every solution right here
-                    </p>
-                  </div>
-                  <div className="flex items-center">
-                    <FaArrowRight className="text-secondary-1 " />
-
-                    <p className="py-1 pl-2 lg:text-[17px]">
-                      Innovation and creativity
+                    <p className="py-1 pl-2 lg:text-[17px] max-w-[350px]">
+                      When you choose ALD Corporate, you're choosing a partner
+                      you can trust to deliver quality, sustainability, and
+                      reliability in every aspect of your construction project.
                     </p>
                   </div>
                 </div>
@@ -120,7 +105,7 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
                     width={56}
                     height={56}
                     alt="icon"
-                    className={`py-4 text-${iconColor} text-white `}
+                    className={`py-4 text-${iconColor} `}
                   />
                 </span>
                 <h2

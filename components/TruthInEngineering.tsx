@@ -11,13 +11,15 @@ const TruthInEngineering = () => {
             <div className="flex">
               <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
               <span className="text-white font-medium text-base uppercase">
-                Truth in engineering
+                Together we thrive
               </span>
             </div>
             <div className="lg:flex lg:justify-between">
               <h1 className="text-4xl text-white font-bold max-w-[600px] py-8">
-                <span className="text-secondary-1">Our Team </span>
-                is Responsible for The <br /> Best Construction{" "}
+                <span className="text-secondary-1">
+                  Versatile Team, Diverse Projects{" "}
+                </span>
+                Building Excellence Everywhere
               </h1>
               <Button className="bg-primary-2 uppercase text-black font-bold text-lg hover:bg-primary-2 px-8 md:w-min lg:mt-4 w-full rounded-none">
                 Our Team
@@ -44,19 +46,28 @@ const TruthInEngineering = () => {
           </div>
           <div className="lg:grid lg:grid-cols-2">
             <div className="my-8 ">
-              <p className="text-lg text-white leading-7">
-                Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-                habitasse platea. Velit egestas dui id ornare arcu. Sapien
-                pellentesque habitant morbi tristique senectus et netus. Ut
-                consequat semper viverra nam libero. Convallis aenean et tortor
+              <p className="text-lg text-white leading-7 font-roboto">
+                Having the right management team within any business is
+                critical, not only for the successful delivery of projects and
+                services but also for the effective coordination of day-to-day
+                operations. Our experienced, loyal and trustworthy team are
+                committed to providing high standards of service to all our
+                clients. We are committed to providing
               </p>
-              <div className="text-white text-base my-6">
+              <div className="text-white text-lg my-6 font-roboto ">
                 <div className="flex">
-                  <p className="py-1">Building the future with ideas</p>
+                  <p className="py-1">
+                    Safe and healthy work environment for all,
+                  </p>
                 </div>
-                <p className="py-1">Designing future with excellence</p>
-                <p className="py-1">Discovering possibility concrete</p>
-                <p className="py-1">Designing future with excellence</p>
+                <p className="py-1">Regular safety training and updates,</p>
+                <p className="py-1">Ongoing commitment to safety,</p>
+                <p className="py-1">
+                  Extending safety measures to public stakeholders,
+                </p>
+                <p className="py-1">
+                  Continuous upskilling for best safety practices.
+                </p>
               </div>
             </div>
             <div className="md:my-10 bg-gradient-to-r from-[#a9a9a9] to-white p-6">

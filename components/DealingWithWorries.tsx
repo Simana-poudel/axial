@@ -11,17 +11,17 @@ const DealingWithWorries = () => {
             <div className="flex">
               <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
               <span className="text-black font-medium text-base uppercase">
-                Dealing with your worries
+                Dealing with your questions
               </span>
             </div>
             <h1 className="text-4xl font-bold md:max-w-full max-w-[600px] py-4">
-              If Your Question Is Not Here{" "}
-              <span className="text-secondary-1">Contact Us</span>
+              Got A Question? <br />
+              <span className="text-secondary-1">Get Your Answer!</span>
             </h1>
             <p className="text-lg leading-7 my-5 md:max-w-full lg:max-w-[500px]">
-              Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-              habitasse platea. Velit egestas dui id ornare arcu. Sapien
-              pellentesque habitant morbi
+              We are easily accessible with locations across Australia. Feel
+              free to reach out to us for all your construction needs and
+              inquiries. Our team is ready to assist you.
             </p>
             <Button className="bg-primary-2 uppercase text-black font-bold text-lg md:max-w-min hover:bg-primary-2 md:my-3 px-8 w-full rounded-none">
               Contact Us

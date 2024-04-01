@@ -25,7 +25,7 @@ const Landingpage = () => {
                 </span>
               </div>
               <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 md:w-min md:py-8 w-full rounded-none">
-                Request/quote
+                Get a quote
               </Button>
             </div>
 

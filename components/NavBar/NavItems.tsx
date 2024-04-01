@@ -23,17 +23,9 @@ export function NavItems() {
       <NavigationMenu className="lg:flex hidden ">
         <NavigationMenuList>
           <NavigationMenuItem className="mt-1">
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                HOME
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem className="mt-1">
             <Link href="/aboutus" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                ABOUT
+                Who we are
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
@@ -41,7 +33,7 @@ export function NavItems() {
           <NavigationMenuItem className="mt-1">
             <Link href="/services" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                SERVICES
+                What we do
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
@@ -49,7 +41,7 @@ export function NavItems() {
           <NavigationMenuItem className="mt-1">
             <Link href="/projects" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                PROJECTS
+                What we did
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
@@ -66,7 +58,7 @@ export function NavItems() {
             <Link href="/request" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
                 <Button className="bg-primary-2 md:max-w-min mb-4 text-black font-bold text-lg hover:bg-primary-2 px-4 rounded-none">
-                  Request/Quote
+                  Get a quote
                 </Button>
               </NavigationMenuLink>
             </Link>
