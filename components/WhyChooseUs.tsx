@@ -59,7 +59,7 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
   return (
     <div
       style={{ backgroundColor: backgroundColor }}
-      className="flex items-center p-4 md:py-10 lg:py-24 "
+      className="flex items-center p-4 md:py-10 lg:py-10 "
     >
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>
@@ -96,7 +96,6 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
             {grids.map((grid) => (
               <div
                 key={grid.index}
-                style={{ borderColor: textColor }}
                 className="bg-transparent p-10 border hover:border-primary-2 cursor-pointer "
               >
                 <span style={{ color: iconColor }}>

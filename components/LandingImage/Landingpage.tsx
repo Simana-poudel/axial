@@ -6,15 +6,15 @@ const Landingpage = () => {
   return (
     <div>
       <div className=" pt-24 bg-primary-1">
-        <div className=" absolute w-[503px] top-[240px] h-[2px] left-5 bg-primary-2 my-2" />
+        <div className=" absolute w-[503px] top-[210px] h-[2px] left-5 bg-primary-2 my-2" />
 
         <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[790px] flex-col bg-primary-1 overflow-hidden">
           <div className="lg:flex lg:justify-between">
-            <div className="p-5 md:max-w-[550px] lg:max-w-[600px] md:pt-36">
+            <div className="p-5 md:max-w-[550px] lg:max-w-[660px] md:pt-28">
               <div className="mb-4 pl-5 text-white uppercase  font-semibold text-base">
                 Innovation. Integrity. Impact
               </div>
-              <h1 className="z-1 relative text-white  font-extrabold text-4xl md:text-5xl lg:text-[58px]">
+              <h1 className="z-1 relative text-white  font-extrabold text-4xl md:text-5xl lg:text-[50px]">
                 Transforming Spaces, Empowering Businesses
               </h1>
               <div className="mb-7 mt-5 px-2">
@@ -51,9 +51,9 @@ const Landingpage = () => {
 
                 <div>
                   <p className="text-white text-[17px] font-bold	">
-                    Green Building Council
+                    Green Building
                     <br />
-                    Australia
+                    Council Australia
                   </p>
                 </div>
               </div>

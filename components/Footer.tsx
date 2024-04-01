@@ -31,22 +31,22 @@ const Footer = () => {
               <div className="flex gap-4">
                 <div className="flex bg-blue-900 text-white items-center">
                   <Input
-                    className="rounded-none bg-blue-900 placeholder:text-white text-white w-44 mt-1 mr-2 border-none"
+                    className="rounded-none bg-blue-900 placeholder:text-white text-white w-44 mr-2 border-none"
                     id="email"
                     placeholder="GET A QUOTE"
                   ></Input>
 
-                  <IoIosSend className="bg-black size-10 text-white h-full cursor-pointer  " />
+                  <IoIosSend className="bg-black size-10 text-white p-2 h-full cursor-pointer  " />
                 </div>
 
                 <div className="flex bg-white text-black items-center">
                   <Input
-                    className="rounded-none w-44 mt-1 mr-2 border-none"
+                    className="rounded-none w-44 mr-2 border-none"
                     id="email"
                     placeholder="CAREERS WITH US"
                   ></Input>
 
-                  <IoIosSend className="bg-black size-10 text-white h-full cursor-pointer  " />
+                  <IoIosSend className="bg-black size-10 p-2 text-white h-full cursor-pointer  " />
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Footer = () => {
               FAQs
             </h1>
           </div>
-          <div className="w-full md:w-[60%] h-[1px] bg-gray-200 my-10" />
+          <div className="w-full md:w-[55%] h-[1px] bg-gray-200 my-10" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4">
             <div className="flex-col">
@@ -94,18 +94,26 @@ const Footer = () => {
               </div>
               <div className="self-end mt-8">
                 <div className="flex">
-                  <Link href="https://www.facebook.com/aldcorporate">
-                    <RiFacebookFill className=" size-8 md:size-10 text-gray-500 bg-gray-700 p-[10px] m-1" />
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/aldcorporate"
+                  >
+                    <RiFacebookFill className=" size-8 md:size-10 hover:text-primary-2 hover:bg-gray-600 text-gray-500 bg-gray-700 p-[10px] m-1" />
                   </Link>
-                  <FaTwitter className=" size-8 md:size-10 text-gray-500 bg-gray-700 p-[10px] m-1" />
-                  <Link href="https://www.linkedin.com/company/aldexpertdemo">
-                    <FaLinkedin className=" size-8 md:size-10 text-gray-500 bg-gray-700 p-[10px] m-1" />
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/company/aldexpertdemo"
+                  >
+                    <FaLinkedin className=" size-8 md:size-10 hover:text-primary-2 hover:bg-gray-600 text-gray-500 bg-gray-700 p-[10px] m-1" />
                   </Link>{" "}
-                  <Link href="https://www.gmail.com">
-                    <MdMail className=" size-8 md:size-10 text-gray-500 bg-gray-700 p-[10px] m-1" />
+                  <Link target="_blank" href="https://www.gmail.com">
+                    <MdMail className=" size-8 md:size-10 hover:text-primary-2 hover:bg-gray-600 text-gray-500 bg-gray-700 p-[10px] m-1" />
                   </Link>
-                  <Link href="https://www.instagram.com/aldcorporate">
-                    <GrInstagram className=" size-8 md:size-10 text-gray-500 bg-gray-700 p-[10px] m-1" />
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/aldcorporate"
+                  >
+                    <GrInstagram className=" size-8 md:size-10 hover:text-primary-2 hover:bg-gray-600 text-gray-500 bg-gray-700 p-[10px] m-1" />
                   </Link>
                 </div>
               </div>
@@ -175,7 +183,7 @@ const Footer = () => {
             <div className="md:flex hidden text-gray-200 justify-end">
               <div className="flex gap-3 md:gap-4">
                 <div className="ml-3 font-light">
-                  <p className="block"> Privacy policy.</p>
+                  <p className="block"> Privacy Policy.</p>
                 </div>
                 <div className="ml-3 font-light">
                   <p className="block"> Terms of use</p>

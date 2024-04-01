@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
 
 const TruthInEngineering = () => {
   return (
-    <div className="flex items-center p-4 lg:py-24 bg-primary-1">
+    <div className="flex items-center p-4 lg:py-10 bg-primary-1">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="grid grid-cols-1">
           <div>
@@ -26,20 +27,22 @@ const TruthInEngineering = () => {
               </Button>
             </div>
           </div>
-          <div className="mt-6 w-full flex justify-center items-center">
+          <div className="mt-6 w-full bg-black">
             <Image
-              className="md:hidden flex w-full"
-              src={"/images/projects/project4.webp"}
-              width={360}
-              height={450}
+              className="md:hidden w-full bg-slate-200 bg-cover aspect-video	"
+              src={"/images/aboutimage/wideimage.webp"}
+              width={1300}
+              height={605}
               alt="Video"
             />
-            <div className="max-h-[400px] max-w-screen overflow-hidden">
+          </div>
+          <div>
+            <div className="max-w-full">
               <Image
                 className=" flex"
-                src={"/images/projects/project4.webp"}
-                width={1200}
-                height={500}
+                src={"/images/aboutimage/wideimage.webp"}
+                width={1300}
+                height={605}
                 alt="Video"
               />
             </div>
@@ -56,18 +59,48 @@ const TruthInEngineering = () => {
               </p>
               <div className="text-white text-lg my-6 font-roboto ">
                 <div className="flex">
-                  <p className="py-1">
-                    Safe and healthy work environment for all,
-                  </p>
+                  <div className="flex items-center py-1">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">
+                      Safe and healthy work environment for all
+                    </p>
+                  </div>
                 </div>
-                <p className="py-1">Regular safety training and updates,</p>
-                <p className="py-1">Ongoing commitment to safety,</p>
-                <p className="py-1">
-                  Extending safety measures to public stakeholders,
-                </p>
-                <p className="py-1">
-                  Continuous upskilling for best safety practices.
-                </p>
+                <div className="flex">
+                  <div className="flex items-center py-1">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">
+                      Regular safety training and updates{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex items-center py-1">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">Ongoing commitment to safety </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex items-center py-1">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">
+                      Extending safety measures to public stakeholders{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex items-center py-1">
+                    <FaArrowRight className="text-secondary-1 " />
+
+                    <p className="py-1 pl-2">
+                      Continuous upskilling for best safety practices.{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="md:my-10 bg-gradient-to-r from-[#a9a9a9] to-white p-6">

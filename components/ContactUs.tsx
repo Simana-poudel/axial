@@ -21,8 +21,8 @@ const ContactUs = () => {
   return (
     <div className="flex items-center bg-white py-4">
       <div className="md:flex max-w-7xl mx-auto w-full flex-col items-center md:py-6">
-        <div className="grid lg:grid-cols-4 lg:gap-4 gap-0 w-[90%] lg:w-full px-4 md:self-start lg:py-10">
-          <div className="col-span-3 lg:w-[90%] w-[100%] justify-self-start">
+        <div className="grid lg:grid-cols-3 lg:gap-4 gap-0 w-[90%] lg:w-full px-4 md:self-start lg:py-10">
+          <div className="col-span-2 lg:w-[95%] w-[100%] justify-self-start">
             <div className="px-4 md:self-start">
               <div className="flex">
                 <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
@@ -31,8 +31,8 @@ const ContactUs = () => {
                 </span>
               </div>
               <h1 className="text-4xl md:text-[40px] font-bold max-w-[600px] py-8">
-                Do Yo Have any{" "}
-                <span className="text-secondary-1">Questions ?</span>
+                Your Inquiry, Our Priority <br />
+                <span className="text-secondary-1">Leave Us Your Info</span>
               </h1>
             </div>
 
@@ -74,28 +74,42 @@ const ContactUs = () => {
             <h1 className="text-lg md:text-[26px] md:w-[300px] md:my-6 font-bold my-4">
               Are You Going to Implement Project?
             </h1>
-            <div className=" mb-4 md:mb-6">
-              <h1 className="text-grey font-medium text-[17px]">Address</h1>
-              <div className="text-lg font-semibold">
-                <span className=" ">Newyork, USA</span>
-                <p className="mb-3">Rosemead, CA 91770</p>
-              </div>
-            </div>
+
             <div className=" mb-4 md:mb-6">
               <h1 className="text-grey font-medium text-[17px]">Email</h1>
-              <div className="text-lg font-semibold">
-                <span className=" ">info@construct.com</span>
-                <p className="mb-3">support@construct.com</p>
+              <div className="text-lg font-medium ">
+                <p className="mb-1">
+                  NSW:{" "}
+                  <span className="text-gray-700">
+                    estimator@aldcorporate.com.au
+                  </span>
+                </p>
+                <p className="mb-1">
+                  SA:{" "}
+                  <span className="text-gray-700">
+                    cavic@aldcorporate.com.au
+                  </span>
+                </p>
+                <p className="mb-1">
+                  ACT:{" "}
+                  <span className="text-gray-700">
+                    estimatoract@aldcorporate.com.au
+                  </span>
+                </p>
+                <p className="mb-1">
+                  VIC:{" "}
+                  <span className="text-gray-700">
+                    estimator@aldcorporate.com.au
+                  </span>
+                </p>
+                <p className="mb-1">
+                  QLD:{" "}
+                  <span className="text-gray-700">
+                    estimatorqld@aldcorporate.com.au
+                  </span>
+                </p>
               </div>
             </div>
-            <div className=" mb-4 md:mb-6">
-              <h1 className="text-grey font-medium text-[17px]">Phone</h1>
-              <div className="text-lg font-semibold">
-                <span className=" ">1-902-909-9098</span>
-                <p className="mb-3">1-222-333-5678</p>
-              </div>
-            </div>
-            <MediaLinks />
           </div>
         </div>
       </div>

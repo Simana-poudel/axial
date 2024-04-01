@@ -36,7 +36,7 @@ const grids: {
 
 const BuildingTheFuture = () => {
   return (
-    <div className="flex items-center p-4 md:py-24 ">
+    <div className="flex items-center p-4 md:py-10 ">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>
           <div className="flex">

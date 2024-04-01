@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const WhereWeWork = () => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-24">
+    <div className="flex items-center p-4 md:py-10 lg:py-10">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div>

@@ -47,7 +47,7 @@ const WhatWeDo: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
   return (
     <div
       style={{ backgroundColor: backgroundColor }}
-      className="flex md:py-10 items-center p-4 lg:py-24 bg-primary-1"
+      className="flex md:py-10 items-center p-4 lg:py-10 bg-primary-1"
     >
       <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>

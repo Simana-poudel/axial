@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const DealingWithWorries = () => {
   return (
@@ -14,7 +15,7 @@ const DealingWithWorries = () => {
                 Dealing with your questions
               </span>
             </div>
-            <h1 className="text-4xl font-bold md:max-w-full max-w-[600px] py-4">
+            <h1 className="text-5xl font-bold md:max-w-full max-w-[600px] py-4">
               Got A Question? <br />
               <span className="text-secondary-1">Get Your Answer!</span>
             </h1>
@@ -31,31 +32,51 @@ const DealingWithWorries = () => {
           <div>
             <div className="border border-secondary-1 p-4 mt-5">
               <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
-                Where is Company <br /> Located?
+                What services does ALD Corporate offer?
               </h5>
               <p className="text-[17px] leading-6">
-                Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-                habitasse platea. Velit egestas dui id ornare arcu. Sapien
-                pellentesque habitant morbi
+                ALD Corporate provides a range of services including structural
+                demolition, strip out & demolition, labour hire, asbestos
+                removal, floor grinding, waste management, and final cleaning,
+                among others.
               </p>
             </div>
-            <div className="border border-gray-200 p-4 mt-5 flex justify-between">
-              <h5 className="text-lg font-bold ">
-                Where is a Structural Engineering ?
+            <div className="border border-secondary-1 p-4 mt-5">
+              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
+                How can I contact ALD Corporate?{" "}
               </h5>
-              <h1 className="text-3xl font-bold p-3">+</h1>
+              <p className="text-[17px] leading-6">
+                You can reach us at any of our regional offices located in NSW,
+                SA, ACT, VIC, and QLD. Contact details are available on our
+                website, including email addresses and phone numbers for each
+                location or you can
+                <Link className="underline text-secondary-1" href={"/request"}>
+                  {" "}
+                  click on this link{" "}
+                </Link>
+                to contact us.
+              </p>
             </div>
-            <div className="border border-gray-200 p-4 mt-5 flex justify-between">
-              <h5 className="text-lg font-bold ">
-                What are the Services Provided By Company ?
+            <div className="border border-secondary-1 p-4 mt-5">
+              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
+                What industries does ALD Corporate serve?
               </h5>
-              <h1 className="text-3xl font-bold p-3">+</h1>
+              <p className="text-[17px] leading-6">
+                We work across various sectors including commercial,
+                residential, healthcare, retail, hospitality, government, and
+                institutional projects.
+              </p>
             </div>
-            <div className="border border-gray-200 p-4 mt-5 flex justify-between">
-              <h5 className="text-lg font-bold ">
-                How Long Does It Takes to Buid a House ?
+            <div className="border border-secondary-1 p-4 mt-5">
+              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
+                How does ALD Corporate ensure quality in its services?
               </h5>
-              <h1 className="text-3xl font-bold p-3">+</h1>
+              <p className="text-[17px] leading-6">
+                We maintain high standards of quality through meticulous
+                attention to detail, regular training, and continuous
+                improvement processes. Customer satisfaction is paramount to us,
+                and we strive to deliver excellence in all our services.
+              </p>
             </div>
           </div>
         </div>

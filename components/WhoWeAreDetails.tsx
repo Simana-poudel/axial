@@ -3,7 +3,7 @@ import React from "react";
 const WhoWeAreDetails = () => {
   return (
     <div>
-      <div className="flex md:py-10 items-center p-4 lg:py-24 bg-primary-1">
+      <div className="flex md:py-10 items-center p-4 lg:py-10 bg-primary-1">
         <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto">
           <div>
             <div className="flex">

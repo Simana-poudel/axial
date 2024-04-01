@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const WhoWeAre = () => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-24">
+    <div className="flex items-center p-4 md:py-10 lg:py-10">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
           <div className="md:flex-col md:items-center">
@@ -15,7 +15,7 @@ const WhoWeAre = () => {
                 who we are
               </span>
             </div>
-            <h1 className="text-4xl font-bold md:max-w-full max-w-[600px] py-4">
+            <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
               Bringing
               <span className="text-secondary-1">
                 {" "}
@@ -23,12 +23,12 @@ const WhoWeAre = () => {
               </span>
               and Innovations to Life{" "}
             </h1>
-            <p className="text-lg leading-7 my-5 md:max-w-full lg:max-w-[500px]">
+            <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 md:max-w-full lg:max-w-[500px]">
               Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
               habitasse platea. Velit egestas dui id ornare arcu. Sapien
               pellentesque habitant morbi
             </p>
-            <div className=" text-base mt-6 font-semibold">
+            <div className=" text-[19px] mt-6 font-medium mb-7">
               <div className=" place-content-start flex-col text-left">
                 <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
@@ -53,7 +53,7 @@ const WhoWeAre = () => {
                 </div>
               </div>
             </div>
-            <Button className="bg-primary-2 uppercase text-black font-bold text-lg md:max-w-min hover:bg-primary-2 md:my-3 px-8 w-full rounded-none">
+            <Button className="bg-primary-2 uppercase text-black font-bold text-lg md:max-w-min hover:bg-primary-2 px-8 w-full rounded-none">
               Contact Us
             </Button>
           </div>
