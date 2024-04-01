@@ -11,17 +11,17 @@ const Landingpage = () => {
         <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[790px] flex-col bg-primary-1 overflow-hidden">
           <div className="lg:flex lg:justify-between">
             <div className="p-5 md:max-w-[550px] lg:max-w-[600px] md:pt-36">
-              <div className="mb-4 pl-5 text-white  font-semibold text-base">
-                PROFESSIONAL. INNOVATIVE. RELIABLE
+              <div className="mb-4 pl-5 text-white uppercase  font-semibold text-base">
+                Innovation. Integrity. Impact
               </div>
               <h1 className="z-1 relative text-white  font-extrabold text-4xl md:text-5xl lg:text-[58px]">
-                Exceptional Service Exceeding Expectations
+                Transforming Spaces, Empowering Businesses
               </h1>
               <div className="mb-7 mt-5 px-2">
                 <span className="text-white text-[17px] font-roboto">
-                  Our civil and structural team is committed to providing
-                  sustainable, creative & efficient engineering solutions for
-                  our communities
+                  With a dedicated team of professionals and a commitment to
+                  excellence, ALD Corporate is your trusted partner in
+                  construction and workplace solutions
                 </span>
               </div>
               <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 md:w-min md:py-8 w-full rounded-none">
@@ -30,21 +30,32 @@ const Landingpage = () => {
             </div>
 
             <div className="flex-col items-center my-4 p-5 z-20 lg:mt-36">
-              <div className="">
+              <div className="text-end">
                 <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold">
-                  128+
+                  1,000+{" "}
                 </h1>
                 <p className="text-white text-[17px] font-bold	">
-                  Projects/Year
+                  Projects Nationally{" "}
                 </p>
               </div>
-              <div className="mt-6 inline-block">
-                <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold	">
-                  4.253
-                </h1>
-                <p className="text-white text-[17px] font-bold	">
-                  Million euros <br /> turnover in 2020
-                </p>
+              <div className="mt-6 pl-6 flex-col text-end">
+                <div className="flex justify-end">
+                  <Image
+                    src="/images/gbcaus_logo.png"
+                    alt="green building council"
+                    width={50}
+                    height={50}
+                    className="place"
+                  />
+                </div>
+
+                <div>
+                  <p className="text-white text-[17px] font-bold	">
+                    Green Building Council
+                    <br />
+                    Australia
+                  </p>
+                </div>
               </div>
             </div>
           </div>

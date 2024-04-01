@@ -8,44 +8,38 @@ interface ProjectProps {
 const grids: {
   index: string;
   image: string;
-  location: string;
+  description: string;
   title: string;
 }[] = [
   {
     index: "1",
     image: "images/projects/project1.webp",
-    location: "100 Sunrise Ct Hamel, Minnesota",
-    title: "Jazzy Elite Construction Shopping",
+    description: "10,000 strip-out & demolition projects Over 4,000,000m2",
+    title: "Strip Out & Demolition",
   },
   {
     index: "2",
     image: "images/projects/project2.webp",
-    location: "Rocky Highway Port Juana",
-    title: "Fresh Concept Construction Renovation",
+    description: "Concrete Floor Grinding Over 700,000m2",
+    title: "Site establishment & hoarding",
   },
   {
     index: "3",
     image: "images/projects/project3.webp",
-    location: "Wuckert Junctions Hermannberg",
-    title: "Installation a Supply System",
+    description: "80-90% Recycling Targets Achieved",
+    title: "Waste management & recycling",
   },
   {
     index: "4",
     image: "images/projects/project4.webp",
-    location: "Stoltenberg Underpass Blockbury",
-    title: "Reconstruction of Old Factory Building",
+    description: "Progressive & Final Cleaning 2,500,000m2",
+    title: "Ongoing site maintenance & final cleanings",
   },
   {
     index: "5",
     image: "images/projects/project1.webp",
-    location: "100 Sunrise Ct Hamel, Minnesota",
-    title: "Jazzy Elite Construction Shopping",
-  },
-  {
-    index: "6",
-    image: "images/projects/project2.webp",
-    location: "Rocky Highway Port Juana",
-    title: "Fresh Concept Construction Renovation",
+    description: "Nationally Accredited GREENSTAR Demolition Waste Contractor",
+    title: "Member of Green Building Council, Australia",
   },
 ];
 
@@ -63,7 +57,7 @@ const Projects: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
               style={{ color: textColor }}
               className="text-white font-medium text-base uppercase"
             >
-              WHAT WE DID
+              WHAT WE Do?
             </span>
           </div>
           <h1
@@ -89,7 +83,7 @@ const Projects: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
                     style={{ color: textColor }}
                     className="text-white text-lg "
                   >
-                    {grid.location}
+                    {grid.description}
                   </p>
                   <button className=" cursor-pointer text-primary-2 py-3 font-semibold text-lg">
                     DETAILS <span> - </span>

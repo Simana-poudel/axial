@@ -1,5 +1,5 @@
 import OthersPageTopUI from "@/components/OthersPageTopUI";
-import Projects from "@/components/whatwedo/Projects";
+import Projects from "@/components/whatwedo/WhatWeDo";
 import React from "react";
 
 const ProjectsPage = () => {

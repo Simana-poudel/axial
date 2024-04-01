@@ -24,12 +24,12 @@ const TruthInEngineering = () => {
               </Button>
             </div>
           </div>
-          <div className="mt-6 mx-3 flex justify-center items-center">
+          <div className="mt-6 w-full flex justify-center items-center">
             <Image
-              className="md:hidden flex"
+              className="md:hidden flex w-full"
               src={"/images/projects/project4.webp"}
-              width={310}
-              height={400}
+              width={360}
+              height={450}
               alt="Video"
             />
             <div className="max-h-[400px] max-w-screen overflow-hidden">

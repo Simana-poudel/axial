@@ -5,6 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 interface WhyChooseUSProps {
   backgroundColor?: string;
   textColor?: string;
+  iconColor?: string;
 }
 
 const grids: {
@@ -53,6 +54,7 @@ const grids: {
 const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
   backgroundColor,
   textColor,
+  iconColor,
 }) => {
   return (
     <div
@@ -112,13 +114,15 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
                 style={{ borderColor: textColor }}
                 className="bg-transparent p-10 border hover:border-primary-2 cursor-pointer "
               >
-                <Image
-                  src={grid.path}
-                  width={56}
-                  height={56}
-                  alt="icon"
-                  className="py-4"
-                />
+                <span style={{ color: iconColor }}>
+                  <Image
+                    src={grid.path}
+                    width={56}
+                    height={56}
+                    alt="icon"
+                    className={`py-4 text-${iconColor} text-white `}
+                  />
+                </span>
                 <h2
                   style={{ color: textColor }}
                   className="text-2xl font-bold "

@@ -4,7 +4,7 @@ import OthersPageTopUI from "@/components/OthersPageTopUI";
 import TheChoiceIsYour from "@/components/TheChoiceIsYour";
 import WeBuidOnlyQualityThings from "@/components/WeBuildOnlyQyalityThings";
 import WhatWeDoDetails from "@/components/WhatWeDoDetails";
-import AboutUs from "@/components/whatwedo/AboutUs";
+import AboutUs from "@/components/WhatWeOffer";
 import React from "react";
 
 const Services = () => {

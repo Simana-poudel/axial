@@ -71,23 +71,6 @@ export function NavItems() {
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-
-          {/* <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-white font-medium mx-2 bg-transparent hover:text-primary-2">
-              CONTACTS
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className=" w-[100px] ">
-                {contacts.map((item) => (
-                  <ListItem
-                    key={item.title}
-                    title={item.title}
-                    href={item.href}
-                  ></ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
 

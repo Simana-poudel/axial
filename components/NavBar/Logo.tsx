@@ -9,7 +9,7 @@ const Logo = () => {
       <div className="md:flex hidden">
         <Link href="/">
           <Image
-            src={"/images/ALD Logo/PNG/Artboard 1@4x.png"}
+            src={"/assets/Artboard.svg"}
             alt="Logo"
             width={160}
             height={160}
@@ -21,7 +21,7 @@ const Logo = () => {
       <div className="md:hidden flex pb-2">
         <Link href="/">
           <Image
-            src={"/images/ALD Logo/PNG/Artboard 1@4x.png"}
+            src={"/images/assets/Artboard.svg"}
             alt="Logo"
             width={120}
             height={40}

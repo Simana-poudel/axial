@@ -15,8 +15,8 @@ const WhereWeWork = () => {
               </span>
             </div>
             <h1 className="text-4xl font-bold max-w-[600px] py-8">
-              <span className="text-secondary-1">Our Project </span>
-              in the World{" "}
+              <span className="text-secondary-1">Serving 5 Cities </span>
+              Across <br /> Australia
             </h1>
             <img
               src={"images/projects/map.svg"}
@@ -27,22 +27,43 @@ const WhereWeWork = () => {
           </div>
           <div className="my-8 lg:pl-10">
             <p className="text-lg leading-7">
-              Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-              habitasse platea. Velit egestas dui id ornare arcu. Sapien
-              pellentesque habitant morbi tristique senectus et netus. Ut
-              consequat semper viverra nam libero. Convallis aenean et tortor
+              ​​With a strong presence in these regions, we stand by to deliver
+              exceptional construction services made to meet the unique needs of
+              clients across Australia. Contact us today to discuss your project
+              requirements and experience the ALD Corporate difference.
             </p>
-            <div className="py-6">
-              <h1 className="text-secondary-1 text-4xl font-bold">200+</h1>
-              <p className="font-semibold">
-                Active Projects in Civil Engineering
-              </p>
+            <div>
+              <div className="py-4">
+                <h1 className="text-secondary-1 text-4xl font-bold">
+                  550,000 m2
+                </h1>
+                <p className="font-semibold">
+                  Commercial Strip out & Demolition Projects Completed
+                </p>
+              </div>
+              <div className="pb-4">
+                <h1 className="text-secondary-1 text-4xl font-bold">30</h1>
+                <p className="font-semibold">Floors & Stairs Level Completed</p>
+              </div>
+              <div className="pb-4">
+                <h1 className="text-secondary-1 text-4xl font-bold">
+                  20,000 m2
+                </h1>
+                <p className="font-semibold">Healthcare Sector</p>
+              </div>
+              <div className="pb-4">
+                <h1 className="text-secondary-1 text-4xl font-bold">
+                  300,000 m2
+                </h1>
+                <p className="font-semibold">Final Cleaning Completed</p>
+              </div>
+              <div className="pb-4">
+                <h1 className="text-secondary-1 text-4xl font-bold">
+                  85% - 90%
+                </h1>
+                <p className="font-semibold">Minimum Recycling Achieved</p>
+              </div>
             </div>
-            <div className="pb-6">
-              <h1 className="text-secondary-1 text-3xl font-semibold">99%</h1>
-              <p className="font-semibold">Building Control Approval Rate</p>
-            </div>
-            <Button className="bg-primary-2">ABOUT COMPANY</Button>
           </div>
         </div>
       </div>
