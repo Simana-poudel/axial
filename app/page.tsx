@@ -6,7 +6,7 @@ import Landingpage from "@/components/LandingImage/Landingpage";
 import TruthInEngineering from "@/components/TruthInEngineering";
 import WhereWeWork from "@/components/WhereWeWork";
 import WhyChooseUS from "@/components/WhyChooseUs";
-import Projects from "@/components/whatwedo/WhatWeDo";
+import WhatWeDo from "@/components/whatwedo/WhatWeDo";
 import WhatWeOffer from "@/components/WhatWeOffer";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
     <div>
       <Landingpage />
       <WhatWeOffer />
-      <Projects />
+      <WhatWeDo />
       <WhereWeWork />
       <WhyChooseUS
         backgroundColor={backgroundColor}

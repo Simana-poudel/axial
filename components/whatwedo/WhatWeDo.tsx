@@ -43,7 +43,7 @@ const grids: {
   },
 ];
 
-const Projects: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
+const WhatWeDo: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
   return (
     <div
       style={{ backgroundColor: backgroundColor }}
@@ -98,4 +98,4 @@ const Projects: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
   );
 };
 
-export default Projects;
+export default WhatWeDo;
