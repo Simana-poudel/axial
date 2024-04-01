@@ -49,7 +49,7 @@ export function NavItems() {
           <NavigationMenuItem className="mt-1">
             <Link href="/blog" legacyBehavior passHref>
               <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2">
-                BLOG
+                Blog
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

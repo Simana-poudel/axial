@@ -56,29 +56,41 @@ const Footer = () => {
                 alt="building"
                 height={450}
                 width={750}
-                className="object-cover translate-x-5 translate-y-20 hue-rotate-15"
+                className="object-cover translate-x-5 translate-y-20  grayscale hue-rotate-15 filter"
               />
             </div>
           </div>
           <div className="md:flex mt-12">
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              Company
-            </h1>
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              Projects
-            </h1>
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              Services
-            </h1>
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              Latest News
-            </h1>
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              Contact Us
-            </h1>
-            <h1 className="text-white font-medium text-base uppercase mx-4">
-              FAQs
-            </h1>
+            <Link href={"/"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                Company
+              </h1>
+            </Link>
+            <Link href={"/projects"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                Projects
+              </h1>
+            </Link>
+            <Link href={"/services"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                Services
+              </h1>
+            </Link>
+            <Link href={"/blogs"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                Latest News
+              </h1>
+            </Link>
+            <Link href={"/request"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                Contact Us
+              </h1>
+            </Link>
+            <Link href={"#"} className="cursor-pointer">
+              <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
+                FAQs
+              </h1>
+            </Link>
           </div>
           <div className="w-full md:w-[55%] h-[1px] bg-gray-200 my-10" />
 

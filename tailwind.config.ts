@@ -81,6 +81,9 @@ const config = {
       sans: ["var(--font-inter)"],
       roboto: ["Roboto", "sans-serif"],
     },
+    transitionDuration: {
+      "300": "300ms",
+    },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

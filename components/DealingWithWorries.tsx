@@ -1,14 +1,48 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
 const DealingWithWorries = () => {
+  const [expandedIndex, setExpandedIndex] = useState<number>(0); // Initialize with 0
+
+  const handleClick = (index: number) => {
+    if (expandedIndex === index) {
+      setExpandedIndex(-1); // Toggle to -1 if clicked question is already expanded
+    } else {
+      setExpandedIndex(index); // Expand the clicked question
+    }
+  };
+
+  const faqData = [
+    {
+      question: "What services does ALD Corporate offer?",
+      answer:
+        "We work across various sectors including commercial, residential, healthcare, retail, hospitality, government, and institutional projects.",
+    },
+    {
+      question: "How can I contact ALD Corporate?",
+      answer:
+        "You can reach us at any of our regional offices located in NSW, SA, ACT, VIC, and QLD. Contact details are available on our website, including email addresses and phone numbers for each location.",
+    },
+    {
+      question: "What industries does ALD Corporate serve?",
+      answer:
+        "We work across various sectors including commercial, residential, healthcare, retail, hospitality, government, and institutional projects.",
+    },
+    {
+      question: "How does ALD Corporate ensure quality in its services?",
+      answer:
+        "We maintain high standards of quality through meticulous attention to detail, regular training, and continuous improvement processes. Customer satisfaction is paramount to us, and we strive to deliver excellence in all our services.",
+    },
+  ];
+
   return (
     <div className="flex items-center p-4 md:py-10 lg:py-10">
-      <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
-        <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
-          <div className="md:flex-col md:items-center">
+      <div className="max-w-7xl text-sm context w-full mx-auto">
+        <div className="md:grid md:grid-cols-1 lg:grid-cols-2 gap-4 ">
+          <div className="md:flex-col md:items-center mt-40">
             <div className="flex">
               <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
               <span className="text-black font-medium text-base uppercase">
@@ -29,55 +63,34 @@ const DealingWithWorries = () => {
             </Button>
           </div>
 
-          <div>
-            <div className="border border-secondary-1 p-4 mt-5">
-              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
-                What services does ALD Corporate offer?
-              </h5>
-              <p className="text-[17px] leading-6">
-                ALD Corporate provides a range of services including structural
-                demolition, strip out & demolition, labour hire, asbestos
-                removal, floor grinding, waste management, and final cleaning,
-                among others.
-              </p>
-            </div>
-            <div className="border border-secondary-1 p-4 mt-5">
-              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
-                How can I contact ALD Corporate?{" "}
-              </h5>
-              <p className="text-[17px] leading-6">
-                You can reach us at any of our regional offices located in NSW,
-                SA, ACT, VIC, and QLD. Contact details are available on our
-                website, including email addresses and phone numbers for each
-                location or you can
-                <Link className="underline text-secondary-1" href={"/request"}>
-                  {" "}
-                  click on this link{" "}
-                </Link>
-                to contact us.
-              </p>
-            </div>
-            <div className="border border-secondary-1 p-4 mt-5">
-              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
-                What industries does ALD Corporate serve?
-              </h5>
-              <p className="text-[17px] leading-6">
-                We work across various sectors including commercial,
-                residential, healthcare, retail, hospitality, government, and
-                institutional projects.
-              </p>
-            </div>
-            <div className="border border-secondary-1 p-4 mt-5">
-              <h5 className="text-lg text-secondary-1 font-bold max-w-[600px]">
-                How does ALD Corporate ensure quality in its services?
-              </h5>
-              <p className="text-[17px] leading-6">
-                We maintain high standards of quality through meticulous
-                attention to detail, regular training, and continuous
-                improvement processes. Customer satisfaction is paramount to us,
-                and we strive to deliver excellence in all our services.
-              </p>
-            </div>
+          <div className=" w-full col-span-1">
+            {faqData.map((faq, index) => (
+              <div
+                key={index}
+                onClick={() => handleClick(index)}
+                className={`border p-4 mt-5 cursor-pointer ${
+                  expandedIndex === index ? "border-secondary-1" : ""
+                } transition duration-500 delay-1000	 ease-in-out`}
+              >
+                <div className="flex justify-between">
+                  <h5
+                    className={`text-2xl p-7 pl-2 ${
+                      expandedIndex === index ? "text-secondary-1" : ""
+                    }   font-bold `}
+                  >
+                    {faq.question}
+                  </h5>
+                  <p>
+                    <span className="text-secondary-1 text-2xl font-bold">
+                      {expandedIndex === index ? "-" : "+"}
+                    </span>
+                  </p>
+                </div>
+                {expandedIndex === index && (
+                  <p className="text-[17px] pl-2 leading-6">{faq.answer}</p>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>
