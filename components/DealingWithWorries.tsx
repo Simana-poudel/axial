@@ -62,7 +62,6 @@ const DealingWithWorries = () => {
               Contact Us
             </Button>
           </div>
-
           <div className=" w-full col-span-1">
             {faqData.map((faq, index) => (
               <div
