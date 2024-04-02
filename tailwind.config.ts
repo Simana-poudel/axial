@@ -17,6 +17,7 @@ const config = {
         "2xl": "1400px",
       },
     },
+
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -24,9 +25,9 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        "primary-1": "#001f3f",
-        "primary-2": "#ffc631",
-        "secondary-1": "#0da574",
+        "primary-1": "#204A9F",
+        "primary-2": "#97C940",
+        "secondary-1": "#00A8D9",
         grey: "#a9a9a9",
         primary: {
           DEFAULT: "hsl(var(--primary))",

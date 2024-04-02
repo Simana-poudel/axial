@@ -19,7 +19,7 @@ const WhereWeWork = () => {
               Across <br /> Australia
             </h1>
             <img
-              src={"images/projects/map.svg"}
+              src={"images/AustraliaMapLocationldpi.png"}
               width={500}
               height={600}
               alt="Map"

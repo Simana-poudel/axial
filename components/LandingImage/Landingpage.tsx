@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Landingpage = () => {
   return (
@@ -24,9 +25,11 @@ const Landingpage = () => {
                   construction and workplace solutions
                 </span>
               </div>
-              <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 md:w-min md:py-8 w-full rounded-none">
-                Get a quote
-              </Button>
+              <Link href={"/request"}>
+                <Button className="bg-primary-2 text-black font-bold uppercase text-lg hover:bg-primary-2 px-8 md:w-min md:py-8 w-full rounded-none">
+                  Get a quote
+                </Button>
+              </Link>
             </div>
 
             <div className="flex-col items-center my-4 p-5 z-20 lg:mt-36">
