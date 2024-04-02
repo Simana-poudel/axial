@@ -28,5 +28,5 @@ export default function Count({ finalCount }: CountProps) {
     setProjectCount(finalCount / 2);
   }, [finalCount]);
 
-  return <div>{projectCount.toLocaleString()}+ </div>;
+  return <div>{projectCount.toLocaleString()} </div>;
 }

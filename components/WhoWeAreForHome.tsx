@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 const WhoWeAreForHome = () => {
   return (
@@ -18,12 +19,6 @@ const WhoWeAreForHome = () => {
             />
           </div>
           <div className="md:flex-col md:items-center pl-16">
-            <div className="flex">
-              <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
-              <span className="text-black font-medium text-base uppercase">
-                who we are
-              </span>
-            </div>
             <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
               <span className="text-secondary-1"> About </span>
               Us
@@ -68,9 +63,11 @@ const WhoWeAreForHome = () => {
                 </div>
               </div>
             </div>
-            <Button className="bg-primary-2 uppercase text-black font-bold text-lg md:max-w-min hover:bg-primary-2 px-8 w-full rounded-none">
-              Contact Us
-            </Button>
+            <Link href={"/request"}>
+              <Button className="bg-primary-2 uppercase text-black font-bold text-lg md:max-w-min hover:bg-primary-2 px-8 w-full rounded-none">
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

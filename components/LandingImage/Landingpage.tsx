@@ -36,8 +36,8 @@ const Landingpage = () => {
 
             <div className="flex-col items-center my-4 p-5 z-20 lg:mt-36">
               <div className="text-end">
-                <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold">
-                  <Count finalCount={finalCount} />
+                <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold inline-flex">
+                  <Count finalCount={finalCount} />+
                 </h1>
                 <p className="text-white text-[17px] font-bold	">
                   Projects Nationally{" "}
