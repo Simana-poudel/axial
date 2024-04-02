@@ -58,7 +58,7 @@ const WhyChooseUS: React.FC<WhyChooseUSProps> = ({
   return (
     <div
       style={{ backgroundColor: backgroundColor }}
-      className="flex items-center p-4 md:py-10 lg:py-10 "
+      className="flex items-center p-4 md:py-10 lg:py-24 "
     >
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div>

@@ -37,7 +37,7 @@ const DealingWithWorries = () => {
   ];
 
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-10">
+    <div className="flex items-center p-4 md:py-10 lg:py-24">
       <div className="max-w-7xl text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 gap-4 ">
           <div className="md:flex-col md:items-center mt-40">

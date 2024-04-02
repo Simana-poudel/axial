@@ -7,7 +7,7 @@ import Construction from "@/components/assets/construction.svg";
 
 const TheChoiceIsYour = () => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-10">
+    <div className="flex items-center p-4 md:py-10 lg:py-24">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
           <div className="md:flex-col md:items-center">

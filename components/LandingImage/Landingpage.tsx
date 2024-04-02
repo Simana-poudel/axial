@@ -5,6 +5,7 @@ import Link from "next/link";
 import Count from "./Count";
 
 const Landingpage = () => {
+  const finalCount = 1000;
   return (
     <div>
       <div className=" pt-24 bg-primary-1">
@@ -36,7 +37,7 @@ const Landingpage = () => {
             <div className="flex-col items-center my-4 p-5 z-20 lg:mt-36">
               <div className="text-end">
                 <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold">
-                  <Count />
+                  <Count finalCount={finalCount} />
                 </h1>
                 <p className="text-white text-[17px] font-bold	">
                   Projects Nationally{" "}
@@ -83,29 +84,12 @@ const Landingpage = () => {
             />
           </div>
 
-          <div className="md:flex flex-col hidden z-30 absolute w-96 lg:w-[390px] top-[470px] lg:top-[420px] lg:left-[600px] xl:left-[860px] left-[400px] my-10 bg-gradient-to-r to-[#a9a9a9] from-white">
-            <h1 className="text-2xl lg:text-3xl font-bold mt-2 ml-2 lg:p-6 mb-5">
-              Residental House
+          <div className="md:flex  flex-col hidden z-30 absolute w-96 lg:w-[390px] top-[470px] lg:top-[450px] lg:left-[600px] xl:left-[860px] left-[400px] my-10 bg-gradient-to-r to-[#a9a9a9] from-white">
+            <h1 className="text-2xl lg:text-3xl font-bold mt-2 ml-2 lg:p-6 lg:pb-0 inline-block ">
+              15 yrs of Industry Experience
             </h1>
             <div className="flex justify-between">
-              <div className="ml-2 lg:p-6 lg:pt-0">
-                <h1 className="text-secondary-1 text-2xl lg:text-3xl mb-2 lg:font-extrabold font-bold">
-                  78 000 m.sq
-                </h1>
-                <p className="text-[17px] font-medium">Amount work done</p>
-                <button className=" flex justify-start cursor-pointer text-secondary-1 py-3 lg:pb-0 font-semibold lg:text-xl text-lg">
-                  DETAILS <span> - </span>
-                </button>
-              </div>
-              <div className="max-h-[150px] max-w-[150px] lg:max-h-[190px] lg:max-w-[190px] overflow-hidden">
-                <Image
-                  src={"/images/home/building_mini.webp"}
-                  alt="building"
-                  height={350}
-                  width={390}
-                  className="object-cover translate-y-1/4 translate-x-1/4 scale-150"
-                />
-              </div>
+              <div className="ml-2 lg:p-6 lg:pt-0"></div>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const WhoWeAreForHome = () => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-10">
+    <div className="flex items-center p-4 md:py-10 lg:py-24">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
           <div>
@@ -25,12 +25,8 @@ const WhoWeAreForHome = () => {
               </span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
-              Building a
-              <span className="text-secondary-1">
-                {" "}
-                Better Community <br />{" "}
-              </span>
-              Through Construction{" "}
+              <span className="text-secondary-1"> About </span>
+              Us
             </h1>
             <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 md:max-w-full lg:max-w-[500px]">
               We are a leading construction company founded in 2008. With a firm

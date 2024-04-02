@@ -59,7 +59,7 @@ const grids: { index: string; title: string; description: string }[] = [
 
 const WhatWeOffer = () => {
   return (
-    <div className="flex items-center lg:py-10 p-6">
+    <div className="flex items-center lg:py-24 p-6">
       <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto mt-8 ">
         <div>
           <div className="flex">

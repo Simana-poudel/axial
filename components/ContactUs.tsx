@@ -19,7 +19,7 @@ import MediaLinks from "./MediaLinks";
 
 const ContactUs = () => {
   return (
-    <div className="flex items-center bg-white py-4">
+    <div className="flex items-center bg-white py-10">
       <div className="md:flex max-w-7xl mx-auto w-full flex-col items-center md:py-6">
         <div className="grid lg:grid-cols-3 lg:gap-4 gap-0 w-[90%] lg:w-full px-4 md:self-start lg:py-10">
           <div className="col-span-2 lg:w-[95%] w-[100%] justify-self-start">

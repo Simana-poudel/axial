@@ -21,7 +21,6 @@ export default function Home() {
       <Landingpage />
       <Numbers />
       <WhoWeAreForHome />
-      <TruthInEngineering />
 
       <WhatWeOffer />
       <WhatWeDo />
@@ -32,6 +31,8 @@ export default function Home() {
         iconColor={iconColor}
       />
       <Sponsers />
+      <TruthInEngineering />
+
       <BuildingTheFuture />
       <ImageGrid />
       <DealingWithWorries />
