@@ -94,7 +94,7 @@ const ServiceTop = () => {
             {grids.map((grid) => (
               <div
                 key={grid.index}
-                className={`py-6 px-10 border border-b-1 hover:cursor-pointer ${
+                className={`py-7 px-10 border hover:cursor-pointer ${
                   selectedGrid === grid.index ? "bg-gray-200" : ""
                 }`}
                 onClick={() => handleGridClick(grid.index)}
@@ -104,7 +104,7 @@ const ServiceTop = () => {
             ))}
           </div>
           {/* rest of the component code... */}
-          <div className="col-span-2 border border-black">
+          <div className="col-span-2 border">
             {selectedGrid ? (
               <div className="max-h-[500px] overflow-hidden">
                 <Image

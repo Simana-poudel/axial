@@ -52,6 +52,11 @@ const Sponsers = () => {
   return (
     <div className="flex items-center md:py-10 lg:py-12 mb-6">
       <div className=" max-w-7xl items-center text-sm context w-full mx-auto">
+        {/* <div className="flex">
+          <span className="text-black mx-auto font-medium  text-base">
+            Member and partnership
+          </span>
+        </div> */}
         <div className=" grid grid-cols-11 py-4 items-center md:h-[70px]">
           {grids.map((grid) => (
             <div className="py-4" key={grid.index}>
