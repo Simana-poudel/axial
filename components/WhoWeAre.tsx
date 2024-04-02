@@ -16,40 +16,50 @@ const WhoWeAre = () => {
               </span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
-              Bringing
+              Building a
               <span className="text-secondary-1">
                 {" "}
-                Your Ideas <br />{" "}
+                Better Community <br />{" "}
               </span>
-              and Innovations to Life{" "}
+              Through Construction{" "}
             </h1>
             <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 md:max-w-full lg:max-w-[500px]">
-              Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-              habitasse platea. Velit egestas dui id ornare arcu. Sapien
-              pellentesque habitant morbi
+              We are a leading construction company founded in 2008. With a firm
+              commitment to sustainability, integrity, and safety, we deliver
+              efficient and reliable services at competitive costs. We operate
+              nationwide across 5 cities in Australia, enabling us to undertake
+              projects Australia-wide.
             </p>
             <div className=" text-[19px] mt-6 font-medium mb-7">
               <div className=" place-content-start flex-col text-left">
                 <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
-                  <p className="py-1 pl-2">Making lives easier</p>
+                  <p className="py-1 pl-2">
+                    We prioritize honesty and sustainability.
+                  </p>
                 </div>
 
                 <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
-                  <p className="py-1 pl-2">Get every solution right here</p>
+                  <p className="py-1 pl-2">Safety is paramount for our team.</p>
                 </div>
                 <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
-                  <p className="py-1 pl-2">Innovation and creativity</p>
+                  <p className="py-1 pl-2">
+                    We promote efficient and reliable service at a competitive
+                    cost.{" "}
+                  </p>
                 </div>
                 <div className="flex items-center py-1">
                   <FaArrowRight className="text-secondary-1 " />
 
-                  <p className="py-1 pl-2">Fine engineering only with us</p>
+                  <p className="py-1 pl-2">
+                    We value quality and ethics, which is why contractors trust
+                    us.
+                  </p>
                 </div>
               </div>
             </div>

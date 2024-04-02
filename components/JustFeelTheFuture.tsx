@@ -12,14 +12,14 @@ const JustFeelTheFuture = () => {
             <div className="flex">
               <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
               <span className="text-black font-medium text-base uppercase">
-                just feel the future
+                Putting Safety First
               </span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
-              Spotlight
+              Our Promise to Protect
               <span className="text-secondary-1">
                 {" "}
-                Services
+                Every Step of the Way
                 <br />{" "}
               </span>
             </h1>
@@ -35,34 +35,40 @@ const JustFeelTheFuture = () => {
           </div>
           <div className="flex-col justify-center items-center flex">
             <div>
-              <h1 className="text-2xl font-semibold">Electrical Engineering</h1>
+              <h1 className="text-2xl font-semibold">
+                Safety & Well-Being Policy
+              </h1>
               <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 md:max-w-full lg:max-w-[500px]">
-                Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-                habitasse platea. Velit egestas dui id ornare arcu. Sapien
-                pellentesque habitant morbi
+                We ensure a safe and healthy work environment for all, including
+                employees & subcontractors, through rigorous safety protocols
+                and regular training as it is our top priority
               </p>
               <div className=" text-[19px] mt-6 font-medium mb-7">
                 <div className=" place-content-start flex-col text-left">
                   <div className="flex items-center py-1">
                     <FaArrowRight className="text-secondary-1 " />
 
-                    <p className="py-1 pl-2">Making lives easier</p>
+                    <p className="py-1 pl-2">Safe work environment for all</p>
                   </div>
 
                   <div className="flex items-center py-1">
                     <FaArrowRight className="text-secondary-1 " />
 
-                    <p className="py-1 pl-2">Get every solution right here</p>
+                    <p className="py-1 pl-2">Regular safety training</p>
                   </div>
                   <div className="flex items-center py-1">
                     <FaArrowRight className="text-secondary-1 " />
 
-                    <p className="py-1 pl-2">Innovation and creativity</p>
+                    <p className="py-1 pl-2">
+                      Quarterly updates on best practices
+                    </p>
                   </div>
                   <div className="flex items-center py-1">
                     <FaArrowRight className="text-secondary-1 " />
 
-                    <p className="py-1 pl-2">Fine engineering only with us</p>
+                    <p className="py-1 pl-2">
+                      Maintaining high safety standards
+                    </p>
                   </div>
                 </div>
               </div>
