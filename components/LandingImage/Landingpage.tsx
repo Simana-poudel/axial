@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import Count from "./Count";
 
 const Landingpage = () => {
   return (
@@ -35,7 +36,7 @@ const Landingpage = () => {
             <div className="flex-col items-center my-4 p-5 z-20 lg:mt-36">
               <div className="text-end">
                 <h1 className="text-primary-2 text-4xl lg:text-5xl font-bold">
-                  1,000+{" "}
+                  <Count />
                 </h1>
                 <p className="text-white text-[17px] font-bold	">
                   Projects Nationally{" "}

@@ -1,6 +1,7 @@
 import ContactUs from "@/components/ContactUs";
 import ImageGrid from "@/components/ImageGrid";
 import OthersPageTopUI from "@/components/OthersPageTopUI";
+import ServiceTop from "@/components/ServiceTop";
 import TheChoiceIsYour from "@/components/TheChoiceIsYour";
 import WeBuidOnlyQualityThings from "@/components/WeBuildOnlyQyalityThings";
 import WhatWeDoDetails from "@/components/WhatWeDoDetails";
@@ -12,6 +13,7 @@ const Services = () => {
   return (
     <div>
       <OthersPageTopUI pageTitle={pageTitle} />
+      {/* <ServiceTop /> */}
       <WhatWeOffer />
       <WhatWeDoDetails />
       <TheChoiceIsYour />

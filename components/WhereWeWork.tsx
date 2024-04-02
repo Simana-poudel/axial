@@ -2,6 +2,21 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 
+const grids: { index: string; path: string }[] = [
+  {
+    index: "1",
+    path: "/images/ALD Logo/SVG/Artboard1.svg",
+  },
+  {
+    index: "2",
+    path: "/images/ALD Logo/exportdemo.webp",
+  },
+  {
+    index: "3",
+    path: "/images/ALD Logo/aldservices.webp",
+  },
+];
+
 const WhereWeWork = () => {
   return (
     <div className="flex items-center p-4 md:py-10 lg:py-10">
@@ -20,8 +35,8 @@ const WhereWeWork = () => {
             </h1>
             <img
               src={"images/AustraliaMapLocationldpi.png"}
-              width={500}
-              height={600}
+              width={400}
+              height={500}
               alt="Map"
             />
           </div>
@@ -32,37 +47,17 @@ const WhereWeWork = () => {
               clients across Australia. Contact us today to discuss your project
               requirements and experience the ALD Corporate difference.
             </p>
-            <div>
-              <div className="py-4">
-                <h1 className="text-secondary-1 text-4xl font-bold">
-                  550,000 m2
-                </h1>
-                <p className="font-semibold">
-                  Commercial Strip out & Demolition Projects Completed
-                </p>
-              </div>
-              <div className="pb-4">
-                <h1 className="text-secondary-1 text-4xl font-bold">30</h1>
-                <p className="font-semibold">Floors & Stairs Level Completed</p>
-              </div>
-              <div className="pb-4">
-                <h1 className="text-secondary-1 text-4xl font-bold">
-                  20,000 m2
-                </h1>
-                <p className="font-semibold">Healthcare Sector</p>
-              </div>
-              <div className="pb-4">
-                <h1 className="text-secondary-1 text-4xl font-bold">
-                  300,000 m2
-                </h1>
-                <p className="font-semibold">Final Cleaning Completed</p>
-              </div>
-              <div className="pb-4">
-                <h1 className="text-secondary-1 text-4xl font-bold">
-                  85% - 90%
-                </h1>
-                <p className="font-semibold">Minimum Recycling Achieved</p>
-              </div>
+            <div className=" grid grid-row-3 items-center w-[40%]">
+              {grids.map((grid) => (
+                <div className="py-4" key={grid.index}>
+                  <Image
+                    src={grid.path}
+                    alt={`sponsor ${grid.index} logo`}
+                    width={150}
+                    height={150}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

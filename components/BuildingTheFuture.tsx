@@ -49,9 +49,6 @@ const BuildingTheFuture = () => {
             <h1 className="text-4xl font-bold max-w-[600px] py-8">
               Latest From the <span className="text-secondary-1">Blog</span>
             </h1>
-            <Button className="bg-primary-2 md:max-w-min mb-4 uppercase text-black font-bold text-lg hover:bg-primary-2 px-8 w-full rounded-none">
-              Our Blog
-            </Button>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (

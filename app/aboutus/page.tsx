@@ -1,3 +1,4 @@
+import AboutUsTop from "@/components/AboutUsTop";
 import ImageGrid from "@/components/ImageGrid";
 import JustFeelTheFuture from "@/components/JustFeelTheFuture";
 import OthersPageTopUI from "@/components/OthersPageTopUI";
@@ -13,6 +14,7 @@ const AboutUs = () => {
   return (
     <div>
       <OthersPageTopUI pageTitle={pageTitle} />
+      <AboutUsTop />
       <WhoWeAre />
       <WhoWeAreDetails />
       <JustFeelTheFuture />

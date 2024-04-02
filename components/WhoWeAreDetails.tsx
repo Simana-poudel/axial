@@ -18,9 +18,6 @@ const WhoWeAreDetails = () => {
               every step. With over a decade if industry expertise we aim to
               create value for our clients, communities, and stakeholders.
             </h1>
-            <p className="text-primary-2 font-medium text-base">
-              BENJAMIN MILLER
-            </p>
           </div>
         </div>
       </div>
