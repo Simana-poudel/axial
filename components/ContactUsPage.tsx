@@ -49,9 +49,9 @@ const ContactUsPage = () => {
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   Suite 312, 451 Pitt Street, Haymarket NSW 2000
                   <br />
-                  email: estimator@aldcorporate.com.au
+                  Email: estimator@aldcorporate.com.au
                   <br />
-                  phone: 0426 646 795
+                  Phone: 0426 646 795
                 </p>
               </div>
 
@@ -61,8 +61,8 @@ const ContactUsPage = () => {
                 </h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   6 McLean Street, Beverly SA 5009 <br />
-                  email: cavic@aldcorporate.com.au <br />
-                  phone: 0451 451 747{" "}
+                  Email: cavic@aldcorporate.com.au <br />
+                  Phone: 0451 451 747{" "}
                 </p>
               </div>
 
@@ -72,8 +72,8 @@ const ContactUsPage = () => {
                 </h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   Suite 418, 15 Moore Street, Canberra ACT 2601 <br />
-                  email: estimatoract@aldcorporate.com.au <br />
-                  phone: 0451 548 014{" "}
+                  Email: estimatoract@aldcorporate.com.au <br />
+                  Phone: 0451 548 014{" "}
                 </p>
               </div>
 
@@ -83,8 +83,8 @@ const ContactUsPage = () => {
                 </h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   8 Holmwood Road, Tottenham, VIC 3012 <br />
-                  email: estimatorvic@aldcorporate.com.au <br />
-                  phone: 0426 663 154{" "}
+                  Email: estimatorvic@aldcorporate.com.au <br />
+                  Phone: 0426 663 154{" "}
                 </p>
               </div>
 
@@ -94,8 +94,8 @@ const ContactUsPage = () => {
                 </h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   189 Musgrave Road, Coopers Plains, QLD 4108 <br />
-                  email: estimatorqld@aldcorporate.com.au <br />
-                  phone: 0416 841 687{" "}
+                  Email: estimatorqld@aldcorporate.com.au <br />
+                  Phone: 0416 841 687{" "}
                 </p>
               </div>
             </div>
