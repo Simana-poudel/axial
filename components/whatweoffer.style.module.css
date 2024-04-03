@@ -1,0 +1,7 @@
+.button span {
+  transition: margin-left 0.3s ease;
+}
+
+.button:hover span {
+  margin-left: 5px; /* Adjust this value as needed */
+}

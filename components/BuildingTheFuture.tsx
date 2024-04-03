@@ -1,5 +1,8 @@
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
+import styles from "./whatweoffer.style.module.css"; // Import CSS module file
 
 const grids: {
   index: string;
@@ -53,7 +56,13 @@ const BuildingTheFuture = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
               <div key={grid.index} className="">
-                <img src={grid.image} alt={grid.title} />
+                <div className="relative max-w-full overflow-hidden bg-cover bg-no-repeat">
+                  <img
+                    src={grid.image}
+                    alt={grid.title}
+                    className="max-w-full transition duration-300 ease-in-out hover:scale-110 cursor-pointer"
+                  />
+                </div>
                 <div className="flex justify-between mt-3">
                   <p className="uppercase">Materials</p>
                   <p className="uppercase font-thin">{grid.date}</p>
@@ -63,9 +72,17 @@ const BuildingTheFuture = () => {
                 <p className="text-lg ">{grid.description}</p>
                 <div className="w-full h-[1px] bg-primary-2 my-2" />
 
-                <button className=" cursor-pointer text-primary-2 py-3 font-semibold text-lg">
-                  DETAILS <span> - </span>
-                </button>
+                <Link href="/blogs">
+                  <button
+                    className={` cursor-pointer inline-flex text-primary-2 font-semibold text-lg ${styles.button}`}
+                  >
+                    DETAILS{" "}
+                    <span>
+                      {" "}
+                      <FaArrowRight className="text-primary-2 py-1 pl-2 size-6" />
+                    </span>
+                  </button>
+                </Link>
               </div>
             ))}
           </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import styles from "./whatweoffer.style.module.css"; // Import CSS module file
 
 const grids: { index: string; title: string; description: string }[] = [
   {
@@ -60,7 +62,7 @@ const grids: { index: string; title: string; description: string }[] = [
 const WhatWeOffer = () => {
   return (
     <div className="flex items-center lg:py-24 p-6">
-      <div className="md:flex  max-w-7xl items-center justify-between text-sm context w-full mx-auto mt-8 ">
+      <div className="md:fl</button>ex  max-w-7xl items-center justify-between text-sm context w-full mx-auto mt-8 ">
         <div>
           <div className="flex">
             <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
@@ -83,8 +85,14 @@ const WhatWeOffer = () => {
                 </div>
                 <h2 className="text-2xl font-bold">{grid.title}</h2>
                 <p className="text-[#202c38] text-lg">{grid.description}</p>
-                <button className=" cursor-pointer text-secondary-1 py-3 font-semibold text-lg">
-                  DETAILS <span> - </span>
+                <button
+                  className={` cursor-pointer inline-flex text-secondary-1 py-3 font-semibold text-lg ${styles.button}`}
+                >
+                  DETAILS{" "}
+                  <span>
+                    {" "}
+                    <FaArrowRight className="text-secondary-1 py-1 pl-2 size-6" />
+                  </span>
                 </button>
               </div>
             ))}

@@ -49,7 +49,7 @@ const TruthInEngineering = () => {
           </div>
           <div className="lg:grid lg:grid-cols-2">
             <div className="my-8 ">
-              <p className="text-lg text-white leading-7 font-roboto">
+              <p className="text-lg text-white leading-7 font-roboto text-justify pr-6">
                 Having the right management team within any business is
                 critical, not only for the successful delivery of projects and
                 services but also for the effective coordination of day-to-day
@@ -57,7 +57,7 @@ const TruthInEngineering = () => {
                 committed to providing high standards of service to all our
                 clients. We are committed to providing
               </p>
-              <div className="text-white text-lg my-6 font-roboto ">
+              <div className="text-white text-lg mb-6 mt-2 font-roboto ">
                 <div className="flex">
                   <div className="flex items-center py-1">
                     <FaArrowRight className="text-secondary-1 " />
@@ -103,15 +103,35 @@ const TruthInEngineering = () => {
                 </div>
               </div>
             </div>
-            <div className="md:my-10 bg-gradient-to-r from-[#a9a9a9] to-white p-6">
-              <h1 className="text-lg font-bold mb-5">
+            <div className="md:my-10 bg-gradient-to-r from-[#a9a9a9] to-white p-6 pb-0">
+              <h1 className="text-2xl font-bold mb-5">
                 Senectus et netus et malesuada. Nunc proin pulvinar sapien et
                 ligula ulamcorper malesuada proin
               </h1>
-              <p className="text-[17px] leading-6">Daniel Strickland</p>
-              <h1 className="text-[17px] font-medium leading-6">
-                Founder of the Company
-              </h1>
+              <div className="flex gap-4 items-center">
+                <Image
+                  src="/images/founder.webp"
+                  width={100}
+                  height={100}
+                  alt="CEO"
+                  className="rounded-full"
+                />
+                <div>
+                  <p className="text-[19px] leading-6">Daniel Strickland</p>
+                  <h1 className="text-[19px] font-medium leading-6">
+                    Founder of the Company
+                  </h1>
+                </div>
+                <div className="float-right ml-10">
+                  <Image
+                    className="float-right"
+                    src="/assets/founder.svg"
+                    width={90}
+                    height={90}
+                    alt="founder"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

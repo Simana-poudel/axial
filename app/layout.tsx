@@ -3,6 +3,7 @@ import { Archivo } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/NavBar/Header";
 import Footer from "@/components/Footer";
+import DemoHeader from "@/components/NavBar/DemoHeader";
 
 const archivo = Archivo({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={archivo.className}>
         <Header />
+        {/* <DemoHeader /> */}
         {children}
         <Footer />
       </body>
