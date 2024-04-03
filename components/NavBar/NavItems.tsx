@@ -16,15 +16,24 @@ import {
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { SheetDemo } from "../SheetDemo";
 import { Button } from "../ui/button";
+import { usePathname } from "next/navigation";
 
 export function NavItems() {
+  const currentPath = usePathname();
+
   return (
     <div>
       <NavigationMenu className="lg:flex hidden ">
         <NavigationMenuList>
           <NavigationMenuItem className="mt-1">
             <Link href="/aboutus" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2 font-nav">
+              <NavigationMenuLink
+                className={`text-white font-medium px-4 hover:text-primary-2 font-nav ${
+                  currentPath === "/aboutus"
+                    ? "underline underline-offset-8 decoration-primary-2 decoration-2 transition-all duration-1000	 ease-out "
+                    : ""
+                } `}
+              >
                 Who we are
               </NavigationMenuLink>
             </Link>
@@ -32,7 +41,14 @@ export function NavItems() {
 
           <NavigationMenuItem className="mt-1">
             <Link href="/services" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2 font-nav">
+              <NavigationMenuLink
+                className={`text-white font-medium px-4 hover:text-primary-2 font-nav ${
+                  currentPath === "/services"
+                    ? "underline underline-offset-8 decoration-primary-2 decoration-2 transition-all duration-1000	 ease-out "
+                    : ""
+                } `}
+              >
+                {" "}
                 What we do
               </NavigationMenuLink>
             </Link>
@@ -40,7 +56,14 @@ export function NavItems() {
 
           <NavigationMenuItem className="mt-1">
             <Link href="/projects" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2 font-nav">
+              <NavigationMenuLink
+                className={`text-white font-medium px-4 hover:text-primary-2 font-nav ${
+                  currentPath === "/projects"
+                    ? "underline underline-offset-8 decoration-primary-2 decoration-2 transition-all duration-1000	 ease-out "
+                    : ""
+                } `}
+              >
+                {" "}
                 What we did
               </NavigationMenuLink>
             </Link>
@@ -48,7 +71,14 @@ export function NavItems() {
 
           <NavigationMenuItem className="mt-1">
             <Link href="/blog" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2 font-nav">
+              <NavigationMenuLink
+                className={`text-white font-medium px-4 hover:text-primary-2 font-nav ${
+                  currentPath === "/blog"
+                    ? "underline underline-offset-8 decoration-primary-2 decoration-2 transition-all duration-1000	 ease-out "
+                    : ""
+                } `}
+              >
+                {" "}
                 Blog
               </NavigationMenuLink>
             </Link>
