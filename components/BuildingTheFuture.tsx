@@ -13,7 +13,7 @@ const grids: {
 }[] = [
   {
     index: "1",
-    image: "images/projects/project1.webp",
+    image: "images/blogimage/blog1.webp",
     date: "july 08, 2022",
     title: "Composite Materials – Applications for the Future",
     description:
@@ -21,7 +21,7 @@ const grids: {
   },
   {
     index: "2",
-    image: "images/projects/project2.webp",
+    image: "images/blogimage/blog2.webp",
     date: "july 08, 2022",
     title: "Impact of Technology on Construction Finance",
     description:
@@ -29,6 +29,30 @@ const grids: {
   },
   {
     index: "3",
+    image: "images/blogimage/blog3.webp",
+    date: "july 08, 2022",
+    title: "The Importance of Healthy Buildings in a Pandemic",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
+  {
+    index: "4",
+    image: "images/projects/project1.webp",
+    date: "july 08, 2022",
+    title: "Composite Materials – Applications for the Future",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
+  {
+    index: "5",
+    image: "images/projects/project2.webp",
+    date: "july 08, 2022",
+    title: "Impact of Technology on Construction Finance",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
+  {
+    index: "6",
     image: "images/projects/project3.webp",
     date: "july 08, 2022",
     title: "The Importance of Healthy Buildings in a Pandemic",
@@ -55,7 +79,7 @@ const BuildingTheFuture = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
             {grids.map((grid) => (
-              <div key={grid.index} className="">
+              <div key={grid.index} className="p-2">
                 <div className="relative max-w-full overflow-hidden bg-cover bg-no-repeat">
                   <img
                     src={grid.image}
@@ -72,7 +96,7 @@ const BuildingTheFuture = () => {
                 <p className="text-lg ">{grid.description}</p>
                 <div className="w-full h-[1px] bg-primary-2 my-2" />
 
-                <Link href="/blogs">
+                <Link href="/blog">
                   <button
                     className={` cursor-pointer inline-flex text-primary-2 font-semibold text-lg ${styles.button}`}
                   >
