@@ -41,7 +41,7 @@ const NavigationItems: {
   },
 ];
 
-export function NavItems() {
+export function ScrollNavItems() {
   const currentPath = usePathname();
 
   return (
@@ -52,7 +52,7 @@ export function NavItems() {
             <NavigationMenuItem key={item.index} className="mt-1">
               <Link href={item.href} legacyBehavior passHref>
                 <NavigationMenuLink
-                  className={`text-white font-medium px-4 hover:text-primary-2 font-nav ${
+                  className={`text-primary-1 font-medium px-4 hover:text-primary-2 font-nav ${
                     currentPath === item.href
                       ? "underline underline-offset-8 decoration-primary-2 decoration-2 transition-all duration-1000	 ease-out "
                       : ""

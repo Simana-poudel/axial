@@ -3,6 +3,8 @@ import { Archivo } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/NavBar/Header";
 import Footer from "@/components/Footer";
+import ScrollHeader from "@/components/NavBar/ScrollHeader";
+import HeaderLogic from "@/components/NavBar/HeaderLogic";
 
 const archivo = Archivo({ subsets: ["latin"] });
 
@@ -22,8 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={archivo.className}>
-        <Header />
-
+        {/* <Header /> */}
+        {/* <ScrollHeader /> */}
+        <HeaderLogic />
         {children}
         <Footer />
       </body>
