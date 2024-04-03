@@ -30,8 +30,8 @@ export default function Home() {
         textColor={textColor}
         iconColor={iconColor}
       />
-      <Sponsers />
       <TruthInEngineering />
+      <Sponsers />
 
       <BuildingTheFuture />
       <ImageGrid />

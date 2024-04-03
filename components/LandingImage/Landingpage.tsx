@@ -8,7 +8,7 @@ const Landingpage = () => {
   const finalCount = 1000;
   return (
     <div>
-      <div className=" pt-24 bg-primary-1">
+      <div className=" pt-24 relative bg-primary-1">
         <div className=" absolute w-[503px] top-[210px] h-[2px] left-5 bg-primary-2 my-2" />
 
         <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[790px] flex-col bg-primary-1 overflow-hidden">
