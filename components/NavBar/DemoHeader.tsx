@@ -23,9 +23,10 @@ const DemoHeader = () => {
 
   return (
     <div
-      className={`z-40 flex flex-col bg-primary-1 items-center justify-between ease-in-out duration-300 ${
+      className={`z-40 flex flex-col bg-primary-1 items-center justify-between ease-in-out duration-1000 ${
         showHeader ? "" : "hidden"
       }`}
+      style={{ top: showHeader ? "0" : "-200px", transition: "top 1.5s" }}
     >
       <div className="bg-primary-1 z-40 fixed top-0 max-w-8xl mx-auto text-black w-full flex items-center justify-between text-sm md:flex py-4">
         <div className="max-w-7xl mx-auto flex w-full justify-between">

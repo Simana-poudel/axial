@@ -10,8 +10,8 @@ const OthersPageTopUI: React.FC<OthersPageTopUIProps> = ({ pageTitle }) => {
   return (
     <div>
       <div>
-        <div className=" pt-24 bg-primary-1">
-          <div className=" absolute w-[503px] top-[240px] h-[2px] left-5 bg-primary-2 my-2" />
+        <div className="relative bg-primary-1">
+          <div className=" absolute w-[503px] top-[145px] h-[2px] left-5 bg-primary-2 my-2" />
 
           <div className=" max-w-7xl mx-auto md:relative md:h-[350px] bg-primary-1 overflow-hidden">
             <div className="">
