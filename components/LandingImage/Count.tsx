@@ -15,7 +15,7 @@ export default function Count({ finalCount }: CountProps) {
           clearInterval(interval);
           return prevCount;
         }
-        return prevCount + 1;
+        return prevCount + 5;
       });
     }, 10); // Adjust the interval to control the speed of counting
 

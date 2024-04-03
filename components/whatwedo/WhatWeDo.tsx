@@ -91,7 +91,7 @@ const WhatWeDo: React.FC<ProjectProps> = ({ backgroundColor, textColor }) => {
                 <div className="flex justify-between py-3">
                   <p
                     style={{ color: textColor }}
-                    className="text-white text-lg w-72 "
+                    className="text-white text-lg w-72 font-roboto "
                   >
                     {grid.description}
                   </p>

@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/NavBar/Header";
 import Footer from "@/components/Footer";
 import DemoHeader from "@/components/NavBar/DemoHeader";
+import NewDemoHeader from "@/components/NavBar/NewDemoHeader";
 
 const archivo = Archivo({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={archivo.className}>
         <Header />
         {/* <DemoHeader /> */}
+        {/* <NewDemoHeader /> */}
         {children}
         <Footer />
       </body>

@@ -33,15 +33,15 @@ const WhereWeWork = () => {
               <span className="text-secondary-1">Serving 5 Cities </span>
               Across <br /> Australia
             </h1>
-            <img
-              src={"images/AustraliaMapLocationldpi.png"}
+            <Image
+              src={"/images/AustraliaMapLocationldpi.png"}
               width={400}
               height={500}
               alt="Map"
             />
           </div>
           <div className="my-8 lg:pl-10">
-            <p className="text-lg leading-7">
+            <p className="text-[19px] leading-7 font-roboto">
               ​​With a strong presence in these regions, we stand by to deliver
               exceptional construction services made to meet the unique needs of
               clients across Australia. Contact us today to discuss your project

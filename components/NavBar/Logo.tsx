@@ -11,8 +11,8 @@ const Logo = () => {
           <Image
             src={"/assets/Artboard.svg"}
             alt="Logo"
-            width={160}
-            height={160}
+            width={120}
+            height={120}
           />
         </Link>
       </div>

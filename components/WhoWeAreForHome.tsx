@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const WhoWeAreForHome = () => {
   return (
-    <div className="flex items-center p-4 md:py-10 lg:py-24">
+    <div className="flex items-center p-4 md:py-10 lg:py-12">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
         <div className="md:grid md:grid-cols-1 lg:grid-cols-2 ">
-          <div>
+          <div className="max-h-[550px] overflow-hidden">
             <Image
               src={"/images/aboutimage/bringingyourideas.webp"}
               alt="building"
@@ -18,13 +18,13 @@ const WhoWeAreForHome = () => {
               className="object-cover"
             />
           </div>
-          <div className="md:flex-col md:items-center pl-16">
-            <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
+          <div className="md:flex-col md:items-center mt-4 pl-10">
+            <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] pb-4">
               <span className="text-secondary-1"> About </span>
               Us
             </h1>
-            <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 md:max-w-full lg:max-w-[500px]">
-              We are a leading construction company founded in 2008. With a firm
+            <p className="text-lg lg:text-[19px] font-roboto leading-7 my-5 mb-7 text-justify md:max-w-full">
+              We are a leading demolition company founded in 2008. With a firm
               commitment to sustainability, integrity, and safety, we deliver
               efficient and reliable services at competitive costs. We operate
               nationwide across 5 cities in Australia, enabling us to undertake

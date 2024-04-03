@@ -51,14 +51,14 @@ const grids: { index: string; path: string }[] = [
 const Sponsers = () => {
   return (
     <div className="flex items-center md:py-10 lg:py-12 mb-6">
-      <div className=" max-w-7xl items-center text-sm context w-full mx-auto">
+      <div className=" max-w-7xl justify-center items-center text-sm context w-full mx-auto">
         <div className="flex mx-auto items-center">
-          <div className=" w-[40%] h-[2px] bg-primary-2 my-2 mr-4" />
+          <div className=" w-[25%] h-[2px] bg-primary-2 my-2 mr-4" />
 
-          <span className="text-black mx-auto font-semibold text-lg">
-            Member and partnership
-          </span>
-          <div className="w-[40%]  h-[2px] bg-primary-2 my-2 mr-4" />
+          <p className="text-black mx-auto font-semibold text-lg">
+            Charities & Community Groups Supported by us throughout the Years
+          </p>
+          <div className="w-[25%]  h-[2px] bg-primary-2 my-2 mr-4" />
         </div>
         <div className=" grid grid-cols-11 py-4 items-center md:h-[70px]">
           {grids.map((grid) => (

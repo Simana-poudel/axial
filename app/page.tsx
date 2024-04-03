@@ -10,6 +10,8 @@ import WhatWeOffer from "@/components/WhatWeOffer";
 import Numbers from "@/components/Numbers";
 import Sponsers from "@/components/Sponsers";
 import WhoWeAreForHome from "@/components/WhoWeAreForHome";
+import { CarouselDemo } from "@/components/CrouselDemo";
+import LandingPageCrousel from "@/components/LandingImage/LandingPageCrousel";
 
 export default function Home() {
   const backgroundColor = "#204A9F"; // White color
@@ -18,7 +20,9 @@ export default function Home() {
 
   return (
     <div>
-      <Landingpage />
+      {/* <CarouselDemo /> */}
+      <LandingPageCrousel />
+      {/* <Landingpage /> */}
       <Numbers />
       <WhoWeAreForHome />
 

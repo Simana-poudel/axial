@@ -24,7 +24,7 @@ const Landingpage = () => {
                 <span className="text-white text-[17px] font-roboto">
                   With a dedicated team of professionals and a commitment to
                   excellence, ALD Corporate is your trusted partner in
-                  construction and workplace solutions
+                  demolition and workplace solutions
                 </span>
               </div>
               <Link href={"/request"}>

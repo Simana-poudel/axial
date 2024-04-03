@@ -76,7 +76,7 @@ const Footer = () => {
                 Latest News
               </h1>
             </Link>
-            <Link href={"/request"} className="cursor-pointer">
+            <Link href={"/contactus"} className="cursor-pointer">
               <h1 className="text-white font-medium text-base uppercase mx-4 hover:text-primary-2">
                 Contact Us
               </h1>

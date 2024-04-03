@@ -14,7 +14,7 @@ const Services = () => {
     <div>
       <OthersPageTopUI pageTitle={pageTitle} />
       <ServiceTop />
-      <WhatWeOffer />
+      {/* <WhatWeOffer /> */}
       <WhatWeDoDetails />
       <TheChoiceIsYour />
       <WeBuidOnlyQualityThings />

@@ -15,22 +15,21 @@ const Numbers = () => {
           <div className="py-4">
             <h1 className="text-primary-2 text-5xl font-bold text-center">
               <div className="inline-flex items-center">
-                <Count finalCount={stripNumber} /> K+ m&sup2;
+                <Count finalCount={stripNumber} /> K m&sup2;
               </div>
             </h1>
-            <p className="font-semibold text-base text-center mt-3 text-gray-700">
-              Strip out & Demolition
+            <p className="font-semibold text-[17px] text-center font-roboto mt-3 text-gray-700">
+              Strip Out & Demolition
             </p>
           </div>
           <div className="py-4">
             <h1 className="text-primary-2 text-5xl font-bold text-center">
               {" "}
               <div className="inline-flex items-center">
-                <Count finalCount={healthNumber} />
-                K+ m&sup2;
+                <Count finalCount={healthNumber} />K m&sup2;
               </div>
             </h1>
-            <p className="font-semibold text-base text-center mt-3 text-gray-700">
+            <p className="font-semibold text-[17px] text-center font-roboto mt-3 text-gray-700">
               Healthcare Sector{" "}
             </p>
           </div>
@@ -38,11 +37,10 @@ const Numbers = () => {
             <h1 className="text-primary-2 text-5xl font-bold text-center">
               {" "}
               <div className="inline-flex items-center">
-                <Count finalCount={cleaningNumber} />
-                K+ m&sup2;
+                <Count finalCount={cleaningNumber} />K m&sup2;
               </div>
             </h1>
-            <p className="font-semibold text-base text-center mt-3 text-gray-700">
+            <p className="font-semibold text-[17px] text-center font-roboto mt-3 text-gray-700">
               Final Cleaning Completed{" "}
             </p>
           </div>
@@ -50,7 +48,7 @@ const Numbers = () => {
             <h1 className="text-primary-2 text-5xl font-bold text-center">
               85% - 90%
             </h1>
-            <p className="font-semibold text-base text-center mt-3 text-gray-700">
+            <p className="font-semibold text-[17px] text-center font-roboto mt-3 text-gray-700">
               Minimum Recycling Achieved{" "}
             </p>
           </div>
