@@ -9,11 +9,11 @@ const grids: { index: string; path: string }[] = [
   },
   {
     index: "2",
-    path: "/images/ALD Logo/exportdemo.webp",
+    path: "/assets/expertdemo.svg",
   },
   {
     index: "3",
-    path: "/images/ALD Logo/aldservices.webp",
+    path: "/assets/services.svg",
   },
 ];
 

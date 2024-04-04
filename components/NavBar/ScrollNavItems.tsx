@@ -47,7 +47,7 @@ export function ScrollNavItems() {
   return (
     <div>
       <NavigationMenu className="lg:flex hidden ">
-        <NavigationMenuList>
+        <NavigationMenuList className="py-3">
           {NavigationItems.map((item) => (
             <NavigationMenuItem key={item.index} className="mt-1">
               <Link href={item.href} legacyBehavior passHref>
@@ -64,12 +64,10 @@ export function ScrollNavItems() {
             </NavigationMenuItem>
           ))}
 
-          <NavigationMenuItem className="mt-3">
+          <NavigationMenuItem className="mt-1">
             <Link href="/request" legacyBehavior passHref>
-              <NavigationMenuLink className="text-white font-medium px-4 hover:text-primary-2 font-nav">
-                <Button className="bg-primary-2 md:max-w-min mb-4 text-black font-medium text-lg hover:bg-primary-2 px-4 rounded-none">
-                  Get a quote
-                </Button>
+              <NavigationMenuLink className="font-medium hover:scale-50 py-2 font-nav bg-primary-2 md:max-w-min mb-4 text-black text-lg hover:bg-primary-2 px-4 ml-2">
+                Get a quote
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
