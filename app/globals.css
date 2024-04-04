@@ -87,3 +87,66 @@ roboto {
 .font-nav {
   font-size: 17px;
 }
+
+.orb {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5em;
+  background: #c0ffe4;
+  background-image: radial-gradient(
+    farthest-corner at 0px 0px,
+    #a2e6c9 25%,
+    #1d8758 35%,
+    #d3ffec 100%
+  );
+  box-shadow: 0 0 20px 5px #c0ffe4;
+  animation: orb 1.8s infinite;
+}
+.orb:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0px;
+  left: 0px;
+  background-image: radial-gradient(
+    farthest-corner at 0px 0px,
+    #fff 15%,
+    #97c940 50%,
+    rgba(192, 255, 228, 0) 100%
+  );
+  border-radius: 50%;
+}
+
+/* animates orb glow */
+@keyframes orb {
+  0%,
+  100% {
+    box-shadow: 0 0 5px 2px #8fffcf;
+  }
+  50% {
+    box-shadow: 0 0 24px 4px #8fffcf;
+  }
+}
+/* rotates shine */
+@keyframes shine {
+  0% {
+    opacity: 0;
+  }
+  34% {
+    opacity: 0;
+    transform: rotate(15deg);
+  }
+  40% {
+    opacity: 0.6;
+    transform: rotate(620deg);
+  }
+  48%,
+  100% {
+    opacity: 0;
+    transform: rotate(635deg);
+  }
+}

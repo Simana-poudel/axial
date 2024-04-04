@@ -46,7 +46,7 @@ export function NavItems() {
 
   return (
     <div>
-      <NavigationMenu className="lg:flex hidden ">
+      <NavigationMenu className="lg:flex hidden items-center ">
         <NavigationMenuList className="py-2">
           {NavigationItems.map((item) => (
             <NavigationMenuItem key={item.index} className="mt-1">

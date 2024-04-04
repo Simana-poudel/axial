@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import MapContentDemo from "./MapContentDemo";
 
 const grids: { index: string; path: string }[] = [
   {
@@ -18,6 +19,12 @@ const grids: { index: string; path: string }[] = [
 ];
 
 const WhereWeWork = () => {
+  const location1 = "BRISBANE";
+  const location2 = "SYDNEY";
+  const location3 = "CANBERRA";
+  const location4 = "MELBOURNE";
+  const location5 = "ADELAIDE";
+
   return (
     <div className="flex items-center p-4 md:py-10 lg:py-24">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
@@ -33,12 +40,29 @@ const WhereWeWork = () => {
               <span className="text-secondary-1">Serving 5 Cities </span>
               Across <br /> Australia
             </h1>
-            <Image
-              src={"/images/AustraliaMapLocationldpi.png"}
-              width={400}
-              height={500}
-              alt="Map"
-            />
+            <div className="relative">
+              <Image
+                src={"/images/citymap.png"}
+                width={400}
+                height={500}
+                alt="Map"
+              />
+              <div className="absolute rounded-full top-[130px] left-[260px] z-10 cursor-pointer">
+                <MapContentDemo location={location1} />
+              </div>
+              <div className="absolute rounded-full top-[204px] left-[225px] z-10 cursor-pointer">
+                <MapContentDemo location={location3} />
+              </div>
+              <div className="absolute rounded-full top-[185px] left-[253px] z-10 cursor-pointer">
+                <MapContentDemo location={location2} />
+              </div>
+              <div className="absolute rounded-full top-[223px] left-[192px] z-10 cursor-pointer">
+                <MapContentDemo location={location4} />
+              </div>
+              <div className="absolute rounded-full top-[180px] left-[150px] z-10 cursor-pointer">
+                <MapContentDemo location={location5} />
+              </div>
+            </div>
           </div>
           <div className="my-8 lg:pl-10">
             <p className="text-[19px] leading-7 font-roboto">

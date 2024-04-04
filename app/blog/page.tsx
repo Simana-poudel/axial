@@ -1,4 +1,4 @@
-import BuildingTheFuture from "@/components/BuildingTheFuture";
+import BlogPage from "@/components/BlogPage";
 import OthersPageTopUI from "@/components/OthersPageTopUI";
 import React from "react";
 
@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div>
       <OthersPageTopUI pageTitle={pageTitle} />
-      <BuildingTheFuture />
+      <BlogPage />
     </div>
   );
 };

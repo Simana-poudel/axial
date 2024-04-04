@@ -35,9 +35,33 @@ const grids: {
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
   },
+  {
+    index: "4",
+    image: "images/projects/project1.webp",
+    date: "july 08, 2022",
+    title: "Composite Materials – Applications for the Future",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
+  {
+    index: "5",
+    image: "images/projects/project2.webp",
+    date: "july 08, 2022",
+    title: "Impact of Technology on Construction Finance",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
+  {
+    index: "6",
+    image: "images/projects/project3.webp",
+    date: "july 08, 2022",
+    title: "The Importance of Healthy Buildings in a Pandemic",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, sapien ac ultrices ultricies, nunc nunc ultrices urna, .",
+  },
 ];
 
-const BuildingTheFuture = () => {
+const BlogPage = () => {
   return (
     <div className="flex items-center p-4 md:py-24 ">
       <div className="md:flex max-w-7xl items-center justify-between text-sm context w-full mx-auto">
@@ -92,4 +116,4 @@ const BuildingTheFuture = () => {
   );
 };
 
-export default BuildingTheFuture;
+export default BlogPage;
