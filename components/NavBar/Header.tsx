@@ -12,7 +12,7 @@ const Header = () => {
     const handleScroll = () => {
       if (scrollY.get() > 50 && !scrolling) {
         setScrolling(true);
-      } else if (scrollY.get() <= 50 && scrolling) {
+      } else if (scrollY.get() <= 500) {
         setScrolling(false);
       }
     };
