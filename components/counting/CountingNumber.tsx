@@ -5,7 +5,7 @@ interface CountProps {
   finalCount: number;
 }
 
-export default function StripNumber({ finalCount }: CountProps) {
+export default function Count({ finalCount }: CountProps) {
   const [projectCount, setProjectCount] = useState(finalCount / 2);
 
   useEffect(() => {
@@ -15,9 +15,9 @@ export default function StripNumber({ finalCount }: CountProps) {
           clearInterval(interval);
           return prevCount;
         }
-        return prevCount + 1;
+        return prevCount + 5;
       });
-    }, 5); // Adjust the interval to control the speed of counting
+    }, 10); // Adjust the interval to control the speed of counting
 
     return () => {
       clearInterval(interval);
@@ -28,5 +28,5 @@ export default function StripNumber({ finalCount }: CountProps) {
     setProjectCount(finalCount / 2);
   }, [finalCount]);
 
-  return <div>{projectCount.toLocaleString()}+ </div>;
+  return <div>{projectCount.toLocaleString()} </div>;
 }

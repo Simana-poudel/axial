@@ -1,8 +1,27 @@
-import Image from "next/image";
 import React from "react";
-import { Button } from "./ui/button";
-import { FaArrowRight } from "react-icons/fa";
 import Count from "./LandingImage/Count";
+
+const NumberItems: {
+  index: number;
+  title: string;
+}[] = [
+  {
+    index: 1,
+    title: "Strip Out & Demolition",
+  },
+  {
+    index: 2,
+    title: "Healthcare Sector",
+  },
+  {
+    index: 3,
+    title: "Final Cleaning Completed",
+  },
+  {
+    index: 4,
+    title: "Minimum Recycling Achieved",
+  },
+];
 
 const Numbers = () => {
   const stripNumber = 550;

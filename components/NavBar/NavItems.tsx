@@ -66,7 +66,7 @@ export function NavItems() {
 
           <NavigationMenuItem className="mt-1">
             <Link href="/request" legacyBehavior passHref>
-              <NavigationMenuLink className="font-medium hover:scale-50 py-2 font-nav bg-primary-2 md:max-w-min mb-4 text-black text-lg hover:bg-primary-2 px-4 ml-2">
+              <NavigationMenuLink className="font-medium hover:scale-50 py-2 rounded-md font-nav bg-primary-2 md:max-w-min mb-4 text-black text-lg hover:bg-primary-2 px-4 ml-2">
                 Get a quote
               </NavigationMenuLink>
             </Link>

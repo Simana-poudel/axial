@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <div>
       {/* <CarouselDemo /> */}
-      <LandingPageCrousel />
-      {/* <Landingpage /> */}
+      {/* <LandingPageCrousel /> */}
+      <Landingpage />
       <Numbers />
       <WhoWeAreForHome />
 

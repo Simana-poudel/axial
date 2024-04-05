@@ -24,49 +24,50 @@ const WeBuidOnlyQualityThings = () => {
             <div className="flex">
               <div className=" w-10 h-[2px] bg-primary-2 my-2 mr-4" />
               <span className="text-black font-medium text-base uppercase">
-                WE BUILD ONLY QUALITY THINGS
+                HEAD CONTRACTOR WAREHOUSING{" "}
               </span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold md:max-w-full max-w-[600px] py-4">
-              Trusted Quality for <br /> Over
-              <span className="text-secondary-1"> 20 Years </span>
+              Your Warehouse <br /> Solution
+              <span className="text-secondary-1"> Partner </span>
             </h1>
             <p className="text-lg leading-7 my-5 md:max-w-full lg:max-w-[500px]">
-              Molestie nunc non blandit massa. Lacus sed viverra tellus in hac
-              habitasse platea. Velit egestas dui id ornare arcu. Sapien
-              pellentesque habitant morbi
+              We offer both temporary and long-term warehousing options,
+              tailored to meet the unique needs of each project. From hoardings
+              to site amenities and material storage, we provide everything you
+              need for efficient and effective site establishment.
             </p>
             <div className=" text-base mt-6 font-semibold">
               <div className=" place-content-start flex-col text-left">
                 <div className="flex items-center py-4">
-                  <p className="py-1 pl-4 w-36">INDUSTRY</p>
+                  <p className="py-1 pl-4 w-36">DEMOLITION</p>
                   <div className=" mx-4 h-3 bg-grey w-[270px]">
-                    <div className="h-full bg-secondary-1 w-[90%]" />
+                    <div className="h-full bg-secondary-1 w-[80%]" />
+                  </div>
+                  <p>80%</p>
+                </div>
+
+                <div className="flex items-center py-4">
+                  <p className="py-1 pl-4 w-36">SAFETY</p>
+                  <div className=" mx-4 h-3 bg-grey w-[270px]">
+                    <div className="h-full bg-primary-2 w-[90%]" />
                   </div>
                   <p>90%</p>
                 </div>
-
                 <div className="flex items-center py-4">
-                  <p className="py-1 pl-4 w-36">ENGINEERING</p>
+                  <p className="py-1 pl-4 w-36">SUSTAINABILITY</p>
                   <div className=" mx-4 h-3 bg-grey w-[270px]">
-                    <div className="h-full bg-primary-2 w-[96%]" />
+                    <div className="h-full bg-secondary-1 w-[70%]" />
                   </div>
-                  <p>96%</p>
-                </div>
-                <div className="flex items-center py-4">
-                  <p className="py-1 pl-4 w-36">FACTORY</p>
-                  <div className=" mx-4 h-3 bg-grey w-[270px]">
-                    <div className="h-full bg-secondary-1 w-[89%]" />
-                  </div>
-                  <p>89%</p>
+                  <p>70%</p>
                 </div>
 
                 <div className="flex items-center py-4">
-                  <p className="py-1 pl-4 w-36">CONSTRUCTION</p>
+                  <p className="py-1 pl-4 w-36">RECYCLING</p>
                   <div className=" mx-4 h-3 bg-grey w-[270px]">
-                    <div className="h-full bg-primary-2 w-[99%]" />
+                    <div className="h-full bg-primary-2 w-[75%]" />
                   </div>
-                  <p>99%</p>
+                  <p>75%</p>
                 </div>
               </div>
             </div>

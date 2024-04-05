@@ -1,5 +1,7 @@
 import ContactUs from "@/components/ContactUs";
+import ContractBuilder from "@/components/ContractBuilder";
 import ImageGrid from "@/components/ImageGrid";
+import LabourHire from "@/components/LabourHire";
 import OthersPageTopUI from "@/components/OthersPageTopUI";
 import ServiceTop from "@/components/ServiceTop";
 import TheChoiceIsYour from "@/components/TheChoiceIsYour";
@@ -15,9 +17,11 @@ const Services = () => {
       <OthersPageTopUI pageTitle={pageTitle} />
       <ServiceTop />
       {/* <WhatWeOffer /> */}
-      <WhatWeDoDetails />
+      {/* <WhatWeDoDetails /> */}
       <TheChoiceIsYour />
       <WeBuidOnlyQualityThings />
+      <ContractBuilder />
+      <LabourHire />
       <ImageGrid />
       <ContactUs />
     </div>

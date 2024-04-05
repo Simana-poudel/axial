@@ -8,10 +8,10 @@ const LandingPage2 = () => {
   return (
     <div>
       <div>
-        <div className=" pt-10 relative bg-slate-800">
-          <div className=" absolute w-[300px] top-[155px] h-[2px] left-5 bg-primary-2 my-2" />
+        <div className=" pt-10 relative bg-slate-800 bg-contain bg-[url('/images/home/c-dustin-91AQt9p4Mo8-unsplash.jpg')]">
+          <div className=" absolute w-[300px] top-[155px] h-[2px] left-5 bg-primary-2 my-2 " />
 
-          <div className="lg:flex max-w-7xl mx-auto lg:justify-between md:relative md:h-[790px] flex-col overflow-hidden">
+          <div className="lg:flex max-w-7xl mx-auto lg:justify-between  md:relative md:h-[790px] flex-col overflow-hidden">
             <div className="lg:flex lg:justify-between">
               <div className="p-5 md:max-w-[550px] lg:max-w-[660px] md:pt-28">
                 <div className="mb-4 pl-5 text-white uppercase  font-semibold text-base">

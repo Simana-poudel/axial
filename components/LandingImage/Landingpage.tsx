@@ -84,8 +84,8 @@ const Landingpage = () => {
             />
           </div>
 
-          <div className="md:flex  flex-col hidden z-30 absolute w-96 lg:w-[390px] top-[470px] lg:top-[450px] lg:left-[600px] xl:left-[860px] left-[400px] my-10 bg-gradient-to-r to-[#a9a9a9] from-white">
-            <h1 className="text-2xl lg:text-3xl font-bold mt-2 ml-2 lg:p-6 lg:pb-0 inline-block ">
+          <div className="md:flex rounded-md  flex-col hidden z-30 absolute w-80 lg:w-[320px] top-[470px] lg:top-[450px] lg:left-[600px] xl:left-[940px] left-[400px] my-10 bg-gradient-to-r to-[#c7c2c2] from-[#eee3e3]">
+            <h1 className="text-2xl lg:text-3xl text-end font-bold mt-2 ml-2 lg:p-6 lg:pb-0 inline-block ">
               15 yrs of Industry Experience
             </h1>
             <div className="flex justify-between">
